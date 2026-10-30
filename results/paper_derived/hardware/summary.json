@@ -1,0 +1,13 @@
+{
+ "commit": "42ac5ed",
+ "date": "2026-10-13",
+ "runs": {
+  "laptop_cpu": "results/rq12_fog_transfer_laptop/summary.csv",
+  "mac_cpu": "results/rq12_fog_transfer/summary.csv",
+  "mac_gpu": "results/rq12_fog_transfer_mps/summary.csv"
+ },
+ "frozen_max_abs_diff": 0.0009673189495110757,
+ "trained_max_abs_diff_laptop_vs_mac_cpu": 0.07428891060983245,
+ "trained_max_abs_diff_mac_cpu_vs_gpu": 0.03470718180211585,
+ "seconds": 0.0
+}

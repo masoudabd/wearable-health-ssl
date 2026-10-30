@@ -1,0 +1,13 @@
+[project]
+name = "whssl"
+version = "0.0.1"
+description = "Leakage-safe evaluation and self-supervised learning for wearable health time series"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pandas", "scikit-learn", "torch", "pyarrow"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

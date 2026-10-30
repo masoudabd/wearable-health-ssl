@@ -1,0 +1,7 @@
+arm,kind,max_abs_diff_laptop_cpu_vs_mac_cpu,cells_laptop_cpu_vs_mac_cpu,max_abs_diff_mac_cpu_vs_mac_gpu,cells_mac_cpu_vs_mac_gpu
+feat60,frozen,0.000278156,8,0,8
+feat60_fi,frozen,0.000252739,8,0,8
+harnet5,frozen,0.000207848,8,0,8
+harnet5_rand,frozen,0.000967319,8,0,8
+ssl_indomain,trained,0.0130463,8,0.0176027,8
+supervised,trained,0.0742889,8,0.0347072,8

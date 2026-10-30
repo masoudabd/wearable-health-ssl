@@ -1,0 +1,10 @@
+{
+ "commit": "5d34031+uncommitted",
+ "date": "2026-10-29",
+ "n_boot": 20000,
+ "source": "results/forge_detector/per_window_scores.parquet",
+ "source_commit": "c0907f0",
+ "n_patients": 57,
+ "note": "elapsed-time endpoint (analysis h) for the released FORGE detector; not a paired comparison",
+ "seconds": 0.9
+}

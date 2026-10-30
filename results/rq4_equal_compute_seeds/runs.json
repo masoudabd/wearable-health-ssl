@@ -1,0 +1,32 @@
+{
+ "results/rq4_equal_compute_seed0": {
+  "seed": 0,
+  "commit": "af5d5ff",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq4_equal_compute_seed1": {
+  "seed": 1,
+  "commit": "af5d5ff",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq4_equal_compute_seed2": {
+  "seed": 2,
+  "commit": "af5d5ff",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq4_equal_compute_seed3": {
+  "seed": 3,
+  "commit": "af5d5ff",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq4_equal_compute_seed4": {
+  "seed": 4,
+  "commit": "af5d5ff",
+  "dirty": false,
+  "device": "mps"
+ }
+}

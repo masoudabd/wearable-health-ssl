@@ -1,0 +1,20 @@
+{
+ "results/rq4_long_adapt_seed0": {
+  "seed": 0,
+  "commit": "177a63d",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq4_long_adapt_seed1": {
+  "seed": 1,
+  "commit": "177a63d",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq4_long_adapt_seed2": {
+  "seed": 2,
+  "commit": "177a63d",
+  "dirty": false,
+  "device": "mps"
+ }
+}

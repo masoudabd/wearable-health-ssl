@@ -1,0 +1,40 @@
+{
+ "n_boot": 20000,
+ "runs": [
+  "results/rq12_fog_transfer_mps_fixed_seed0+results/rq12_tuned_ft_seed0+results/probe_arms_seed0",
+  "results/rq12_fog_transfer_mps_fixed_seed1+results/rq12_tuned_ft_seed1+results/probe_arms_seed1",
+  "results/rq12_fog_transfer_mps_fixed_seed2+results/rq12_tuned_ft_seed2+results/probe_arms_seed2",
+  "results/rq12_fog_transfer_mps_fixed_seed3+results/rq12_tuned_ft_seed3+results/probe_arms_seed3",
+  "results/rq12_fog_transfer_mps_fixed_seed4+results/rq12_tuned_ft_seed4+results/probe_arms_seed4"
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "comparisons": [
+  [
+   "forge_mc",
+   "harnet5"
+  ],
+  [
+   "forge_mc",
+   "feat60_fi"
+  ],
+  [
+   "forge_mc_tc",
+   "harnet5_tc"
+  ],
+  [
+   "forge_mc_tc",
+   "feat60_fi_tc"
+  ]
+ ],
+ "n_tests": 32,
+ "n_patients": {
+  "defog": 57,
+  "tdcsfog": 71
+ }
+}

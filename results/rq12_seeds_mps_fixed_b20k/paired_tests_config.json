@@ -1,0 +1,48 @@
+{
+ "n_boot": 20000,
+ "runs": [
+  "results/rq12_fog_transfer_mps_fixed_seed0",
+  "results/rq12_fog_transfer_mps_fixed_seed1",
+  "results/rq12_fog_transfer_mps_fixed_seed2",
+  "results/rq12_fog_transfer_mps_fixed_seed3",
+  "results/rq12_fog_transfer_mps_fixed_seed4"
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "comparisons": [
+  [
+   "harnet5",
+   "feat60_fi"
+  ],
+  [
+   "ssl_indomain",
+   "feat60_fi"
+  ],
+  [
+   "harnet5",
+   "harnet5_rand"
+  ],
+  [
+   "harnet5",
+   "supervised"
+  ],
+  [
+   "ssl_indomain",
+   "harnet5"
+  ],
+  [
+   "supervised",
+   "feat60_fi"
+  ]
+ ],
+ "n_tests": 48,
+ "n_patients": {
+  "defog": 57,
+  "tdcsfog": 71
+ }
+}

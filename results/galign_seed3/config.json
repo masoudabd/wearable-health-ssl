@@ -1,0 +1,25 @@
+{
+  "seed": 3,
+  "reps": [
+    "harnet5_galign"
+  ],
+  "folds": 5,
+  "budgets": [
+    5,
+    10,
+    20,
+    10000
+  ],
+  "cohorts": [
+    "tdcsfog",
+    "defog"
+  ],
+  "n_boot": 1000,
+  "device": "mps",
+  "out": "galign_seed3",
+  "commit": "42ac5ed",
+  "dirty": false,
+  "fs": 30.0,
+  "win_s": 5.0,
+  "hop_s": 2.5
+}

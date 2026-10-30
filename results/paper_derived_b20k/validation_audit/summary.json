@@ -1,0 +1,22 @@
+{
+ "commit": "482fead+uncommitted",
+ "date": "2026-10-29",
+ "runs": [
+  "results/rq12_tuned_ft_seed0",
+  "results/rq12_tuned_ft_seed1",
+  "results/rq12_tuned_ft_seed2",
+  "results/rq12_tuned_ft_seed3",
+  "results/rq12_tuned_ft_seed4"
+ ],
+ "arms": [
+  "harnet5",
+  "feat60_fi",
+  "ssl_indomain",
+  "supervised",
+  "harnet5_rand"
+ ],
+ "validation_sets_without_fog": 0,
+ "validation_sets": 1000,
+ "note": "oracle F1 is an upper bound computed on the test patients, not a usable method",
+ "seconds": 4.9
+}

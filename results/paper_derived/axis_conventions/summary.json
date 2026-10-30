@@ -1,0 +1,52 @@
+{
+ "commit": "1402d4e",
+ "date": "2026-10-12",
+ "units": "g",
+ "tdcsfog": {
+  "windows": 27356,
+  "patients": 71,
+  "mean_v": -0.9494199752807617,
+  "mean_ml": -0.019006740301847458,
+  "mean_ap": 0.19716733694076538,
+  "patients_ap_positive": 66,
+  "patients_ap_negative": 5,
+  "mean_ap_fog": 0.2847128212451935,
+  "mean_ap_nonfog": 0.15047737956047058
+ },
+ "defog": {
+  "windows": 31894,
+  "patients": 57,
+  "mean_v": -0.9285935163497925,
+  "mean_ml": -0.03443048894405365,
+  "mean_ap": -0.19246050715446472,
+  "patients_ap_positive": 8,
+  "patients_ap_negative": 49,
+  "mean_ap_fog": -0.34348276257514954,
+  "mean_ap_nonfog": -0.16850806772708893
+ },
+ "fogathome_structured": {
+  "windows": 804,
+  "patients": 12,
+  "mean_v": 0.9192314147949219,
+  "mean_ml": -0.05027091130614281,
+  "mean_ap": -0.08993730694055557,
+  "patients_ap_positive": 3,
+  "patients_ap_negative": 9,
+  "mean_ap_fog": -0.0238769743591547,
+  "mean_ap_nonfog": -0.12884241342544556,
+  "sessions_v_positive": 94,
+  "sessions": 94
+ },
+ "fogathome_daily_walkstand": {
+  "windows": 81314,
+  "patients": 11,
+  "mean_v": 0.6239933371543884,
+  "mean_ml": -0.04694005846977234,
+  "mean_ap": -0.1489633172750473,
+  "patients_ap_positive": 0,
+  "patients_ap_negative": 11,
+  "mean_ap_fog": -0.1863928884267807,
+  "mean_ap_nonfog": -0.148054301738739
+ },
+ "seconds": 0.4
+}

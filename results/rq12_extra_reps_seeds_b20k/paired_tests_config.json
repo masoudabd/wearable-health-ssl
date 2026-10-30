@@ -1,0 +1,48 @@
+{
+ "n_boot": 20000,
+ "runs": [
+  "results/rq12_extra_reps_seed0",
+  "results/rq12_extra_reps_seed1",
+  "results/rq12_extra_reps_seed2",
+  "results/rq12_extra_reps_seed3",
+  "results/rq12_extra_reps_seed4"
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "comparisons": [
+  [
+   "harnet10ctx",
+   "harnet5"
+  ],
+  [
+   "harnet10ctx",
+   "feat60_fi"
+  ],
+  [
+   "harnet5_swap",
+   "harnet5"
+  ],
+  [
+   "harnet5_apneg",
+   "harnet5"
+  ],
+  [
+   "harnet10ctx_tc",
+   "harnet5_tc"
+  ],
+  [
+   "harnet10ctx_tc",
+   "feat60_fi_tc"
+  ]
+ ],
+ "n_tests": 48,
+ "n_patients": {
+  "defog": 57,
+  "tdcsfog": 71
+ }
+}

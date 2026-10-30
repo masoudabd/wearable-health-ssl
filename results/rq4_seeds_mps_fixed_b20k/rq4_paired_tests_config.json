@@ -1,0 +1,51 @@
+{
+ "n_boot": 20000,
+ "runs": [
+  "results/rq4_daily_living_fixed_seed0",
+  "results/rq4_daily_living_fixed_seed1",
+  "results/rq4_daily_living_fixed_seed2",
+  "results/rq4_daily_living_fixed_seed3",
+  "results/rq4_daily_living_fixed_seed4"
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "comparisons": [
+  [
+   "ssl_dailyliving",
+   "ssl_indomain"
+  ],
+  [
+   "ssl_dailyliving",
+   "feat60_fi"
+  ],
+  [
+   "ssl_dailyliving",
+   "harnet5"
+  ],
+  [
+   "harnet5_dl",
+   "harnet5"
+  ],
+  [
+   "harnet5_dl",
+   "feat60_fi"
+  ],
+  [
+   "harnet5_dl",
+   "ssl_indomain"
+  ],
+  [
+   "ssl_indomain",
+   "feat60_fi"
+  ]
+ ],
+ "n_tests": 28,
+ "n_patients": {
+  "defog": 57
+ }
+}

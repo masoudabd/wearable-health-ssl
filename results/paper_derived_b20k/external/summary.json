@@ -1,0 +1,36 @@
+{
+ "commit": "ff79be3",
+ "date": "2026-10-29",
+ "n_tests_main": 12,
+ "test_sets": {
+  "structured": {
+   "participants": 12,
+   "windows": 804,
+   "sessions": 94,
+   "hours": 0.6236111111111111,
+   "fog_windows_pct": 37.06467661691542,
+   "fog_time_pct": 36.71224944320713
+  },
+  "daily": {
+   "participants": 11,
+   "windows": 423912,
+   "sessions": 2814,
+   "hours": 296.3375,
+   "fog_windows_pct": 0.9072637717262074,
+   "fog_time_pct": 1.0640059729221905
+  },
+  "daily_walkstand": {
+   "participants": 11,
+   "windows": 81314,
+   "windows_pct_of_daily": 19.18181131933043,
+   "fog_windows_pct": 2.3710554148117176
+  }
+ },
+ "runs": {
+  "defog_Vflip": "results/external_fogathome_defog_Vflip_b20k",
+  "tdcsfog_VAPflip": "results/external_fogathome_tdcsfog_VAPflip_b20k",
+  "defog_VMLflip": "results/external_fogathome_defog_VMLflip_b20k",
+  "tdcsfog_VAPMLflip": "results/external_fogathome_tdcsfog_VAPMLflip_b20k"
+ },
+ "seconds": 0.4
+}

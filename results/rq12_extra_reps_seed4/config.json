@@ -1,0 +1,47 @@
+{
+  "quick": false,
+  "folds": 5,
+  "budgets": [
+    5,
+    10,
+    20,
+    10000
+  ],
+  "ssl_epochs": 10,
+  "sup_epochs": 6,
+  "cohorts": [
+    "tdcsfog",
+    "defog"
+  ],
+  "threads": 4,
+  "seed": 4,
+  "n_boot": 1000,
+  "device": "mps",
+  "out": "rq12_extra_reps_seed4",
+  "extra": [
+    "tuned_probe"
+  ],
+  "tc_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "patience": 5,
+  "es_max_epochs": 50,
+  "ft_max_epochs": 50,
+  "ft_lr": 0.0001,
+  "lpft_lr": 1e-05,
+  "extra_reps": [
+    "harnet10ctx",
+    "harnet5_swap",
+    "harnet5_apneg"
+  ],
+  "commit": "177a63d",
+  "dirty": false,
+  "fs": 30.0,
+  "win_s": 5.0,
+  "hop_s": 2.5
+}

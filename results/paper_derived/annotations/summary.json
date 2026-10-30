@@ -1,0 +1,51 @@
+{
+ "commit": "f14a29c",
+ "date": "2026-10-04",
+ "cache": "windows_30hz_5s_hop2.5.npz",
+ "recordings": {
+  "defog": 183,
+  "tdcsfog": 1039
+ },
+ "recordings_without_window": {
+  "defog": 0,
+  "tdcsfog": 0
+ },
+ "windows_candidate": {
+  "defog": 124279,
+  "tdcsfog": 27356
+ },
+ "windows_kept": {
+  "defog": 31894,
+  "tdcsfog": 27356
+ },
+ "windows_excluded": {
+  "defog": 92385,
+  "tdcsfog": 0
+ },
+ "hours_recorded": {
+  "defog": 86.49185,
+  "tdcsfog": 20.05591579861111
+ },
+ "hours_valid": {
+  "defog": 27.027280555555556,
+  "tdcsfog": 20.05591579861111
+ },
+ "fog_min_valid": {
+  "defog": 194.49466666666666,
+  "tdcsfog": 404.92578125
+ },
+ "episodes": {
+  "defog": 3097,
+  "tdcsfog": 1794
+ },
+ "episodes_fully_valid": {
+  "defog": 2036,
+  "tdcsfog": 1794
+ },
+ "episodes_with_window": {
+  "defog": 2081,
+  "tdcsfog": 1793
+ },
+ "windows_checked_against_cache": 59250,
+ "seconds": 26.5
+}

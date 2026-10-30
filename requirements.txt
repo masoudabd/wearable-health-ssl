@@ -1,0 +1,11 @@
+# Versions that produced results/rq12_fog_transfer on the old laptop (Python 3.11.9, CPU only).
+# On a GPU machine install torch first from https://pytorch.org (pick the CUDA build), then the rest.
+numpy==1.26.4
+scipy==1.13.0
+pandas==2.2.1
+scikit-learn==1.4.2
+pyarrow==22.0.0
+matplotlib==3.8.4
+pytest==9.1.1
+torch==2.9.1
+safetensors==0.4.5

@@ -1,0 +1,28 @@
+{
+ "commit": "e37fe68",
+ "date": "2026-10-28",
+ "labels": "fixed",
+ "runs": {
+  "0": "results/rq12_fog_transfer_mps_fixed_seed0",
+  "1": "results/rq12_fog_transfer_mps_fixed_seed1",
+  "2": "results/rq12_fog_transfer_mps_fixed_seed2",
+  "3": "results/rq12_fog_transfer_mps_fixed_seed3",
+  "4": "results/rq12_fog_transfer_mps_fixed_seed4"
+ },
+ "run_commits": {
+  "0": "2da9858",
+  "1": "2da9858",
+  "2": "2da9858",
+  "3": "2da9858",
+  "4": "2da9858"
+ },
+ "n_boot": 20000,
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "seconds": 208.3
+}

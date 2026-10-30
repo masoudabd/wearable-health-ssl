@@ -1,0 +1,16 @@
+source,arm,ensemble,reading,labels,n_patients,n_windows,prevalence,primary,auroc,auroc_lo,auroc_hi,auprc,auprc_lo,auprc_hi,n_seeds
+forge,forge_mc_probe,mean3,softmax,ours_majority,57,31894,0.136891,True,0.834521,0.78639,0.876224,0.412383,0.278403,0.503714,
+forge,forge_mc_probe,mean3,softmax,forge_any_fog,57,31894,0.217408,False,0.808561,0.766925,0.845221,0.507782,0.384344,0.59909,
+forge,forge_mc_probe,mean3,sigmoid,ours_majority,57,31894,0.136891,False,0.834091,0.786037,0.87551,0.411205,0.278136,0.502482,
+forge,forge_mc_probe,mean3,sigmoid,forge_any_fog,57,31894,0.217408,False,0.807947,0.766409,0.844469,0.506257,0.383453,0.597121,
+forge,forge_mc_probe,s42,softmax,ours_majority,57,31894,0.136891,False,0.836011,0.78935,0.876714,0.410974,0.280263,0.501579,
+forge,forge_mc_probe,s42,softmax,forge_any_fog,57,31894,0.217408,False,0.8102,0.768807,0.846445,0.505819,0.383722,0.596674,
+forge,forge_mc_probe,s42,sigmoid,ours_majority,57,31894,0.136891,False,0.835024,0.788993,0.875183,0.409464,0.278448,0.499558,
+forge,forge_mc_probe,s42,sigmoid,forge_any_fog,57,31894,0.217408,False,0.808,0.76758,0.8435,0.504249,0.382752,0.594683,
+ours,harnet5,,,,57,,,,0.842013,0.803622,0.875527,0.419086,0.307229,0.506685,5
+ours,feat60_fi,,,,57,,,,0.841297,0.798843,0.876394,0.437579,0.31493,0.528288,5
+ours,ssl_indomain,,,,57,,,,0.813583,0.767129,0.854147,0.367593,0.266189,0.459745,5
+ours,supervised,,,,57,,,,0.769054,0.710561,0.818679,0.308239,0.213498,0.400865,5
+ours,harnet5_tc (equal effort),,,,57,,,,0.851034,0.81118,0.884961,0.437879,0.322634,0.525192,5
+ours,feat60_fi_tc (equal effort),,,,57,,,,0.828529,0.778918,0.868869,0.437573,0.311531,0.529571,5
+ours,harnet5_ft (equal effort),,,,57,,,,0.823117,0.777174,0.864777,0.426346,0.307127,0.516403,5

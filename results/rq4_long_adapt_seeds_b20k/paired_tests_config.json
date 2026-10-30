@@ -1,0 +1,39 @@
+{
+ "n_boot": 20000,
+ "runs": [
+  "results/rq4_daily_living_fixed_seed0+results/rq4_long_adapt_seed0",
+  "results/rq4_daily_living_fixed_seed1+results/rq4_long_adapt_seed1",
+  "results/rq4_daily_living_fixed_seed2+results/rq4_long_adapt_seed2"
+ ],
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "comparisons": [
+  [
+   "harnet5_dl_e10",
+   "harnet5"
+  ],
+  [
+   "harnet5_dl_e10",
+   "harnet5_dl"
+  ],
+  [
+   "harnet5_dl_e10",
+   "feat60_fi"
+  ],
+  [
+   "harnet5_dl_e6",
+   "harnet5"
+  ],
+  [
+   "harnet5_dl_e4",
+   "harnet5"
+  ]
+ ],
+ "n_tests": 20,
+ "n_patients": {
+  "defog": 57
+ }
+}

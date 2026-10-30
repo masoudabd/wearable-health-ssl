@@ -1,0 +1,10 @@
+{
+ "crossings": 31,
+ "gained": 27,
+ "lost": 4,
+ "p_cells": 2208,
+ "tables_compared": 45,
+ "auroc_interval_sets": 26,
+ "max_auroc_ci_width_change": 0.01655722206113419,
+ "held_included": false
+}

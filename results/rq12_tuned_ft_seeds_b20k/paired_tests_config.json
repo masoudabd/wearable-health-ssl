@@ -1,0 +1,60 @@
+{
+ "n_boot": 20000,
+ "runs": [
+  "results/rq12_tuned_ft_seed0",
+  "results/rq12_tuned_ft_seed1",
+  "results/rq12_tuned_ft_seed2",
+  "results/rq12_tuned_ft_seed3",
+  "results/rq12_tuned_ft_seed4"
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "comparisons": [
+  [
+   "harnet5_ft",
+   "feat60_fi"
+  ],
+  [
+   "harnet5_ft",
+   "harnet5"
+  ],
+  [
+   "harnet5_ft",
+   "supervised_es"
+  ],
+  [
+   "harnet5_tc",
+   "feat60_fi_tc"
+  ],
+  [
+   "harnet5_tc",
+   "harnet5"
+  ],
+  [
+   "feat60_fi_tc",
+   "feat60_fi"
+  ],
+  [
+   "ssl_indomain_tc",
+   "feat60_fi_tc"
+  ],
+  [
+   "supervised_es",
+   "supervised"
+  ],
+  [
+   "supervised_es",
+   "feat60_fi"
+  ]
+ ],
+ "n_tests": 72,
+ "n_patients": {
+  "defog": 57,
+  "tdcsfog": 71
+ }
+}

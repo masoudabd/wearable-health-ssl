@@ -1,0 +1,30 @@
+{
+  "quick": false,
+  "folds": 5,
+  "budgets": [
+    5,
+    10,
+    20,
+    10000
+  ],
+  "ssl_epochs": 10,
+  "sup_epochs": 6,
+  "cohorts": [
+    "defog"
+  ],
+  "threads": 4,
+  "seed": 2,
+  "n_boot": 1000,
+  "device": "mps",
+  "out": "rq4_gait_seed2",
+  "dl_min_sd": 0.01,
+  "dl_max_windows": 10000,
+  "dl_epochs": 10,
+  "harnet_dl_epochs": 2,
+  "harnet_dl_lr": 0.0001,
+  "commit": "a010f00",
+  "dirty": false,
+  "fs": 30.0,
+  "win_s": 5.0,
+  "hop_s": 2.5
+}

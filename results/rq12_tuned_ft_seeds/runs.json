@@ -1,0 +1,32 @@
+{
+ "results/rq12_tuned_ft_seed0": {
+  "seed": 0,
+  "commit": "57ecb34",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq12_tuned_ft_seed1": {
+  "seed": 1,
+  "commit": "cafc52d",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq12_tuned_ft_seed2": {
+  "seed": 2,
+  "commit": "cafc52d",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq12_tuned_ft_seed3": {
+  "seed": 3,
+  "commit": "cafc52d",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq12_tuned_ft_seed4": {
+  "seed": 4,
+  "commit": "cafc52d",
+  "dirty": false,
+  "device": "mps"
+ }
+}

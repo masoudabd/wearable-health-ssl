@@ -1,0 +1,52 @@
+{
+ "commit": "c0907f0",
+ "date": "2026-10-29",
+ "device": "mps",
+ "n_boot": 20000,
+ "seconds": 388.2,
+ "n_patients": 57,
+ "n_windows": 31894,
+ "released_threshold": 0.35,
+ "heads": [
+  "mc_probe_fold0",
+  "mc_probe_s43_fold0",
+  "mc_probe_s44_fold0",
+  "mc_probe_fold1",
+  "mc_probe_s43_fold1",
+  "mc_probe_s44_fold1",
+  "mc_probe_fold2",
+  "mc_probe_s43_fold2",
+  "mc_probe_s44_fold2"
+ ],
+ "overlap": {
+  "forge_pretraining_participants": 65,
+  "contest_daily_living_participants": 65,
+  "identical_sets": true,
+  "home_patients_in_pretraining": 45,
+  "test_patients_in_pretraining_per_fold": {
+   "0": 15,
+   "1": 13,
+   "2": 17
+  }
+ },
+ "primary": [
+  {
+   "source": "forge",
+   "arm": "forge_mc_probe",
+   "ensemble": "mean3",
+   "reading": "softmax",
+   "labels": "ours_majority",
+   "n_patients": 57,
+   "n_windows": 31894.0,
+   "prevalence": 0.1368909512761021,
+   "primary": true,
+   "auroc": 0.834520980129273,
+   "auroc_lo": 0.7863904499150851,
+   "auroc_hi": 0.8762239297217117,
+   "auprc": 0.41238297960607156,
+   "auprc_lo": 0.27840347639485874,
+   "auprc_hi": 0.5037143388361337,
+   "n_seeds": NaN
+  }
+ ]
+}

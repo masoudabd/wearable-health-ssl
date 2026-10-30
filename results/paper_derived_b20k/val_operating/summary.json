@@ -1,0 +1,61 @@
+{
+ "commit": "3df4ee5",
+ "date": "2026-10-29",
+ "labels": "fixed",
+ "runs": {
+  "0": "results/rq12_tuned_ft_seed0",
+  "1": "results/rq12_tuned_ft_seed1",
+  "2": "results/rq12_tuned_ft_seed2",
+  "3": "results/rq12_tuned_ft_seed3",
+  "4": "results/rq12_tuned_ft_seed4"
+ },
+ "run_commits": {
+  "0": "57ecb34",
+  "1": "cafc52d",
+  "2": "cafc52d",
+  "3": "cafc52d",
+  "4": "cafc52d"
+ },
+ "n_boot": 20000,
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "cohorts": {
+  "tdcsfog": {
+   "analyzed_hours": 19.718750000000146,
+   "assessable_episodes": 1793,
+   "analyzed_hours_elapsed": 19.71865888888889
+  },
+  "defog": {
+   "analyzed_hours": 24.354861111111095,
+   "assessable_episodes": 1991,
+   "analyzed_hours_elapsed": 24.354861111111113
+  }
+ },
+ "rules": [
+  "f1",
+  "fa4",
+  "fa8",
+  "fa16",
+  "burden",
+  "burden_time"
+ ],
+ "arms": [
+  "harnet5",
+  "feat60_fi",
+  "ssl_indomain",
+  "harnet5_tc",
+  "harnet5_ft"
+ ],
+ "budgets": [
+  "10",
+  "all"
+ ],
+ "ptf_definition": "ptf_time_*: elapsed annotated or predicted FOG time over analyzed time (analysis h); ptf_*: share of windows (analysis b), kept for comparison",
+ "check_against_analysis_h": "F1 rule reproduces analysis h in 108 values (points and intervals; largest difference 4.8e-05, within the six significant digits h stores)",
+ "seconds": 152.3
+}

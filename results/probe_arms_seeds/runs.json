@@ -1,0 +1,32 @@
+{
+ "results/probe_arms_seed0": {
+  "seed": 0,
+  "commit": "4d60929",
+  "dirty": false,
+  "device": "cpu"
+ },
+ "results/probe_arms_seed1": {
+  "seed": 1,
+  "commit": "4d60929",
+  "dirty": false,
+  "device": "cpu"
+ },
+ "results/probe_arms_seed2": {
+  "seed": 2,
+  "commit": "4d60929",
+  "dirty": false,
+  "device": "cpu"
+ },
+ "results/probe_arms_seed3": {
+  "seed": 3,
+  "commit": "4d60929",
+  "dirty": false,
+  "device": "cpu"
+ },
+ "results/probe_arms_seed4": {
+  "seed": 4,
+  "commit": "4d60929",
+  "dirty": false,
+  "device": "cpu"
+ }
+}

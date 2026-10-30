@@ -1,0 +1,9 @@
+cohort,budget,val_patients,windows_median,fog_windows_min,fog_windows_median,sets_without_fog,n_sets
+defog,10,1,789,3,86,0,125
+defog,20,3,2130,34,238,0,125
+defog,5,1,528,4,63,0,125
+defog,all,9,4811,104,524,0,125
+tdcsfog,10,2,595,6,83,0,125
+tdcsfog,20,4,1269,3,282,0,125
+tdcsfog,5,1,416,7,71,0,125
+tdcsfog,all,12,4362,399,1267,0,125

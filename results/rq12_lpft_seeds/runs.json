@@ -1,0 +1,32 @@
+{
+ "results/rq12_lpft_seed0": {
+  "seed": 0,
+  "commit": "8ca673b",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq12_lpft_seed1": {
+  "seed": 1,
+  "commit": "4bcd09b",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq12_lpft_seed2": {
+  "seed": 2,
+  "commit": "4bcd09b",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq12_lpft_seed3": {
+  "seed": 3,
+  "commit": "4d60929",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq12_lpft_seed4": {
+  "seed": 4,
+  "commit": "4d60929",
+  "dirty": false,
+  "device": "mps"
+ }
+}

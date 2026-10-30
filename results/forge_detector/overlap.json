@@ -1,0 +1,11 @@
+{
+ "forge_pretraining_participants": 65,
+ "contest_daily_living_participants": 65,
+ "identical_sets": true,
+ "home_patients_in_pretraining": 45,
+ "test_patients_in_pretraining_per_fold": {
+  "0": 15,
+  "1": 13,
+  "2": 17
+ }
+}

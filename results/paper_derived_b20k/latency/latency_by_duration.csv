@@ -1,0 +1,169 @@
+cohort,runs,budget,arm,duration,n_episodes,detected_pct,in_time_pct,latency_median_s
+tdcsfog,reference,none,windows,under 1 s,125,100,33.6,1.1172
+tdcsfog,reference,none,windows,1 to 2.5 s,593,100,61.5514,1.2578
+tdcsfog,reference,none,windows,2.5 to 5 s,378,100,99.7354,1.2421
+tdcsfog,reference,none,windows,5 to 10 s,265,100,100,1.258
+tdcsfog,reference,none,windows,10 to 30 s,256,100,100,1.3982
+tdcsfog,reference,none,windows,30 s or longer,176,100,100,1.29295
+tdcsfog,reference,none,labels,under 1 s,125,16.8,2.4,2.8906
+tdcsfog,reference,none,labels,1 to 2.5 s,593,21.9224,6.914,2.33985
+tdcsfog,reference,none,labels,2.5 to 5 s,378,100,53.7037,3.4336
+tdcsfog,reference,none,labels,5 to 10 s,265,100,100,3.39844
+tdcsfog,reference,none,labels,10 to 30 s,256,100,100,3.3982
+tdcsfog,reference,none,labels,30 s or longer,176,100,100,2.87499
+tdcsfog,fixed,10,feat60,under 1 s,125,40.96,9.28,1.5391
+tdcsfog,fixed,10,feat60,1 to 2.5 s,593,52.7825,23.3727,1.78906
+tdcsfog,fixed,10,feat60,2.5 to 5 s,378,67.1429,52.8042,1.8828
+tdcsfog,fixed,10,feat60,5 to 10 s,265,80.1509,72.3774,2.2188
+tdcsfog,fixed,10,feat60,10 to 30 s,256,88.5156,86.25,2.3594
+tdcsfog,fixed,10,feat60,30 s or longer,176,96.8182,96.8182,2.21875
+tdcsfog,fixed,10,feat60_fi,under 1 s,125,42.4,9.28,1.6406
+tdcsfog,fixed,10,feat60_fi,1 to 2.5 s,593,54.8735,23.2378,1.8438
+tdcsfog,fixed,10,feat60_fi,2.5 to 5 s,378,69.418,53.7566,1.9609
+tdcsfog,fixed,10,feat60_fi,5 to 10 s,265,81.5094,74.566,2.2188
+tdcsfog,fixed,10,feat60_fi,10 to 30 s,256,91.4844,88.2812,2.4531
+tdcsfog,fixed,10,feat60_fi,30 s or longer,176,99.2045,99.2045,2.312
+tdcsfog,fixed,10,harnet5,under 1 s,125,45.6,10.56,1.7109
+tdcsfog,fixed,10,harnet5,1 to 2.5 s,593,62.6307,23.8786,2.0703
+tdcsfog,fixed,10,harnet5,2.5 to 5 s,378,74.6561,53.7566,2.1953
+tdcsfog,fixed,10,harnet5,5 to 10 s,265,88.1509,79.0943,2.3281
+tdcsfog,fixed,10,harnet5,10 to 30 s,256,95.3906,93.3594,2.5391
+tdcsfog,fixed,10,harnet5,30 s or longer,176,100,100,2.297
+tdcsfog,fixed,10,harnet5_rand,under 1 s,125,47.36,11.84,1.5391
+tdcsfog,fixed,10,harnet5_rand,1 to 2.5 s,593,58.6847,25.9022,1.7188
+tdcsfog,fixed,10,harnet5_rand,2.5 to 5 s,378,67.1958,52.6984,1.8359
+tdcsfog,fixed,10,harnet5_rand,5 to 10 s,265,75.4717,70.0377,2.0664
+tdcsfog,fixed,10,harnet5_rand,10 to 30 s,256,84.9219,83.2031,2.3516
+tdcsfog,fixed,10,harnet5_rand,30 s or longer,176,89.8864,89.4318,2.4531
+tdcsfog,fixed,10,ssl_indomain,under 1 s,125,47.68,8.48,1.9531
+tdcsfog,fixed,10,ssl_indomain,1 to 2.5 s,593,57.7066,23.3727,2
+tdcsfog,fixed,10,ssl_indomain,2.5 to 5 s,378,72.328,52.7513,2.1328
+tdcsfog,fixed,10,ssl_indomain,5 to 10 s,265,83.3208,75.3962,2.375
+tdcsfog,fixed,10,ssl_indomain,10 to 30 s,256,92.8906,90.2344,2.71875
+tdcsfog,fixed,10,ssl_indomain,30 s or longer,176,98.9773,98.9773,2.375
+tdcsfog,fixed,10,supervised,under 1 s,125,35.68,9.12,1.3359
+tdcsfog,fixed,10,supervised,1 to 2.5 s,593,47.0489,20.5396,1.7734
+tdcsfog,fixed,10,supervised,2.5 to 5 s,378,58.9947,46.1376,1.8906
+tdcsfog,fixed,10,supervised,5 to 10 s,265,67.7736,63.0189,2.21094
+tdcsfog,fixed,10,supervised,10 to 30 s,256,79.375,77.1875,2.4297
+tdcsfog,fixed,10,supervised,30 s or longer,176,85.9091,85.3409,2.60155
+tdcsfog,fixed,all,feat60,under 1 s,125,42.4,12.16,1.4688
+tdcsfog,fixed,all,feat60,1 to 2.5 s,593,57.8415,25.0253,1.78906
+tdcsfog,fixed,all,feat60,2.5 to 5 s,378,75.0794,57.9365,2.0938
+tdcsfog,fixed,all,feat60,5 to 10 s,265,92.5283,86.2642,2.2656
+tdcsfog,fixed,all,feat60,10 to 30 s,256,96.25,95.8594,2.4609
+tdcsfog,fixed,all,feat60,30 s or longer,176,99.5455,99.3182,2.297
+tdcsfog,fixed,all,feat60_fi,under 1 s,125,43.52,10.4,1.7578
+tdcsfog,fixed,all,feat60_fi,1 to 2.5 s,593,55.2782,21.855,2
+tdcsfog,fixed,all,feat60_fi,2.5 to 5 s,378,73.7566,55.5026,2.2031
+tdcsfog,fixed,all,feat60_fi,5 to 10 s,265,90.717,83.5472,2.3828
+tdcsfog,fixed,all,feat60_fi,10 to 30 s,256,95.625,94.6875,2.78127
+tdcsfog,fixed,all,feat60_fi,30 s or longer,176,99.6591,99.6591,2.4141
+tdcsfog,fixed,all,harnet5,under 1 s,125,43.36,11.68,1.5391
+tdcsfog,fixed,all,harnet5,1 to 2.5 s,593,56.8297,21.2816,2.0938
+tdcsfog,fixed,all,harnet5,2.5 to 5 s,378,73.1746,53.7566,2.26562
+tdcsfog,fixed,all,harnet5,5 to 10 s,265,91.0943,83.1698,2.375
+tdcsfog,fixed,all,harnet5,10 to 30 s,256,96.0938,94.1406,3.0938
+tdcsfog,fixed,all,harnet5,30 s or longer,176,99.5455,99.5455,2.117
+tdcsfog,fixed,all,harnet5_rand,under 1 s,125,43.36,9.76,1.4531
+tdcsfog,fixed,all,harnet5_rand,1 to 2.5 s,593,60.1349,25.4975,1.78906
+tdcsfog,fixed,all,harnet5_rand,2.5 to 5 s,378,73.1746,56.8783,1.9922
+tdcsfog,fixed,all,harnet5_rand,5 to 10 s,265,86.0377,80.3774,2.0781
+tdcsfog,fixed,all,harnet5_rand,10 to 30 s,256,93.8281,92.4219,2.4453
+tdcsfog,fixed,all,harnet5_rand,30 s or longer,176,97.0455,97.0455,2.4141
+tdcsfog,fixed,all,ssl_indomain,under 1 s,125,53.6,11.04,1.6562
+tdcsfog,fixed,all,ssl_indomain,1 to 2.5 s,593,64.5868,25.43,2.0156
+tdcsfog,fixed,all,ssl_indomain,2.5 to 5 s,378,76.6138,56.8254,2.1797
+tdcsfog,fixed,all,ssl_indomain,5 to 10 s,265,92,84.3019,2.375
+tdcsfog,fixed,all,ssl_indomain,10 to 30 s,256,97.2656,96.25,2.8281
+tdcsfog,fixed,all,ssl_indomain,30 s or longer,176,100,100,2.375
+tdcsfog,fixed,all,supervised,under 1 s,125,36.96,8.32,1.5625
+tdcsfog,fixed,all,supervised,1 to 2.5 s,593,47.9933,19.0894,2.0156
+tdcsfog,fixed,all,supervised,2.5 to 5 s,378,66.0847,48.836,2.2266
+tdcsfog,fixed,all,supervised,5 to 10 s,265,82.8679,76.5283,2.3828
+tdcsfog,fixed,all,supervised,10 to 30 s,256,91.875,89.6875,3.2266
+tdcsfog,fixed,all,supervised,30 s or longer,176,98.5227,98.4091,2.625
+defog,reference,none,windows,under 1 s,468,100,22.4359,1.33
+defog,reference,none,windows,1 to 2.5 s,563,100,56.4831,1.38
+defog,reference,none,windows,2.5 to 5 s,372,100,94.8925,1.36
+defog,reference,none,windows,5 to 10 s,295,100,99.322,1.4
+defog,reference,none,windows,10 to 30 s,249,100,100,1.33
+defog,reference,none,windows,30 s or longer,44,100,100,0.955
+defog,reference,none,labels,under 1 s,468,14.9573,2.5641,3.58
+defog,reference,none,labels,1 to 2.5 s,563,36.7673,13.8544,2.22
+defog,reference,none,labels,2.5 to 5 s,372,98.6559,56.4516,3.22
+defog,reference,none,labels,5 to 10 s,295,100,99.322,3.13
+defog,reference,none,labels,10 to 30 s,249,100,100,2.68
+defog,reference,none,labels,30 s or longer,44,100,100,2.685
+defog,fixed,10,feat60,under 1 s,468,54.4444,11.6239,1.48
+defog,fixed,10,feat60,1 to 2.5 s,563,65.5773,31.794,1.62
+defog,fixed,10,feat60,2.5 to 5 s,372,71.6667,59.086,1.64
+defog,fixed,10,feat60,5 to 10 s,295,80.6102,75.661,1.68
+defog,fixed,10,feat60,10 to 30 s,249,84.5783,82.49,1.71
+defog,fixed,10,feat60,30 s or longer,44,90.9091,90.4545,1.5
+defog,fixed,10,feat60_fi,under 1 s,468,49.9573,10.3846,1.48
+defog,fixed,10,feat60_fi,1 to 2.5 s,563,60.746,28.4192,1.7
+defog,fixed,10,feat60_fi,2.5 to 5 s,372,67.7419,54.5161,1.66
+defog,fixed,10,feat60_fi,5 to 10 s,295,79.1186,72.8814,1.92
+defog,fixed,10,feat60_fi,10 to 30 s,249,83.3735,81.7671,1.82
+defog,fixed,10,feat60_fi,30 s or longer,44,89.5455,88.6364,1.74
+defog,fixed,10,harnet5,under 1 s,468,52.3504,9.61538,1.65
+defog,fixed,10,harnet5,1 to 2.5 s,563,60.8171,25.6838,1.95
+defog,fixed,10,harnet5,2.5 to 5 s,372,74.5699,54.5699,1.9
+defog,fixed,10,harnet5,5 to 10 s,295,83.8644,74.4407,2.23
+defog,fixed,10,harnet5,10 to 30 s,249,92.0482,90.2811,2.12
+defog,fixed,10,harnet5,30 s or longer,44,98.6364,98.6364,2.08
+defog,fixed,10,harnet5_rand,under 1 s,468,46.2821,9.52991,1.5
+defog,fixed,10,harnet5_rand,1 to 2.5 s,563,50.6927,24.6536,1.62
+defog,fixed,10,harnet5_rand,2.5 to 5 s,372,59.8925,50.6452,1.57
+defog,fixed,10,harnet5_rand,5 to 10 s,295,62.9831,59.4576,1.73
+defog,fixed,10,harnet5_rand,10 to 30 s,249,67.3896,65.3815,1.89
+defog,fixed,10,harnet5_rand,30 s or longer,44,59.5455,59.0909,2.08
+defog,fixed,10,ssl_indomain,under 1 s,468,57.6496,11.0684,1.59
+defog,fixed,10,ssl_indomain,1 to 2.5 s,563,67.2114,30.1599,1.73
+defog,fixed,10,ssl_indomain,2.5 to 5 s,372,79.086,62.5269,1.69
+defog,fixed,10,ssl_indomain,5 to 10 s,295,88.7458,82.0339,2.02
+defog,fixed,10,ssl_indomain,10 to 30 s,249,93.5743,91.8072,1.94
+defog,fixed,10,ssl_indomain,30 s or longer,44,97.7273,95.9091,1.5
+defog,fixed,10,supervised,under 1 s,468,30.641,5.34188,1.52
+defog,fixed,10,supervised,1 to 2.5 s,563,35.9147,16.2345,1.75
+defog,fixed,10,supervised,2.5 to 5 s,372,43.4946,35.9677,1.64
+defog,fixed,10,supervised,5 to 10 s,295,49.6949,45.8983,1.88
+defog,fixed,10,supervised,10 to 30 s,249,51.4056,50.1205,1.78
+defog,fixed,10,supervised,30 s or longer,44,47.7273,45.9091,2.02
+defog,fixed,all,feat60,under 1 s,468,34.8291,7.69231,1.62
+defog,fixed,all,feat60,1 to 2.5 s,563,49.3073,22.7353,1.78
+defog,fixed,all,feat60,2.5 to 5 s,372,59.0323,46.129,1.84
+defog,fixed,all,feat60,5 to 10 s,295,79.322,73.2881,2.04
+defog,fixed,all,feat60,10 to 30 s,249,90.3614,87.3092,1.97
+defog,fixed,all,feat60,30 s or longer,44,96.3636,95.9091,2.07
+defog,fixed,all,feat60_fi,under 1 s,468,35.9402,6.49573,1.8
+defog,fixed,all,feat60_fi,1 to 2.5 s,563,50.373,21.9538,1.91
+defog,fixed,all,feat60_fi,2.5 to 5 s,372,63.172,48.9247,1.83
+defog,fixed,all,feat60_fi,5 to 10 s,295,80,74.1695,2
+defog,fixed,all,feat60_fi,10 to 30 s,249,90.2811,88.755,2
+defog,fixed,all,feat60_fi,30 s or longer,44,96.3636,96.3636,2.08
+defog,fixed,all,harnet5,under 1 s,468,40.0855,7.39316,1.7
+defog,fixed,all,harnet5,1 to 2.5 s,563,56.0213,22.6288,1.96
+defog,fixed,all,harnet5,2.5 to 5 s,372,74.086,53.2796,2.08
+defog,fixed,all,harnet5,5 to 10 s,295,87.7288,81.1525,2.14
+defog,fixed,all,harnet5,10 to 30 s,249,95.743,94.4578,2.09
+defog,fixed,all,harnet5,30 s or longer,44,100,100,2.02
+defog,fixed,all,harnet5_rand,under 1 s,468,49.3162,9.65812,1.51
+defog,fixed,all,harnet5_rand,1 to 2.5 s,563,57.5844,27.2469,1.67
+defog,fixed,all,harnet5_rand,2.5 to 5 s,372,66.3441,53.2796,1.7
+defog,fixed,all,harnet5_rand,5 to 10 s,295,76.2712,70.7119,1.92
+defog,fixed,all,harnet5_rand,10 to 30 s,249,81.6867,79.5984,1.97
+defog,fixed,all,harnet5_rand,30 s or longer,44,80.4545,80.4545,1.66
+defog,fixed,all,ssl_indomain,under 1 s,468,39.9145,7.17949,1.71
+defog,fixed,all,ssl_indomain,1 to 2.5 s,563,55.6661,23.1616,1.96
+defog,fixed,all,ssl_indomain,2.5 to 5 s,372,70.914,54.5699,1.86
+defog,fixed,all,ssl_indomain,5 to 10 s,295,84.7458,75.2542,2.17
+defog,fixed,all,ssl_indomain,10 to 30 s,249,93.1727,90.7631,2.01
+defog,fixed,all,ssl_indomain,30 s or longer,44,97.7273,96.8182,1.66
+defog,fixed,all,supervised,under 1 s,468,35.0427,6.79487,1.54
+defog,fixed,all,supervised,1 to 2.5 s,563,45.0444,20.4263,1.78
+defog,fixed,all,supervised,2.5 to 5 s,372,53.4946,43.0108,1.73
+defog,fixed,all,supervised,5 to 10 s,295,65.6949,60,1.92
+defog,fixed,all,supervised,10 to 30 s,249,73.6546,72.3695,2
+defog,fixed,all,supervised,30 s or longer,44,73.6364,70,2.08

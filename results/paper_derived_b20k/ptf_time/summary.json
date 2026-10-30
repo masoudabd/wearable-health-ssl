@@ -1,0 +1,42 @@
+{
+ "commit": "69c88e9+uncommitted",
+ "date": "2026-10-29",
+ "labels": "fixed",
+ "runs": {
+  "0": "results/rq12_tuned_ft_seed0",
+  "1": "results/rq12_tuned_ft_seed1",
+  "2": "results/rq12_tuned_ft_seed2",
+  "3": "results/rq12_tuned_ft_seed3",
+  "4": "results/rq12_tuned_ft_seed4"
+ },
+ "run_commits": {
+  "0": "57ecb34",
+  "1": "cafc52d",
+  "2": "cafc52d",
+  "3": "cafc52d",
+  "4": "cafc52d"
+ },
+ "n_boot": 20000,
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "arms": [
+  "harnet5",
+  "feat60_fi",
+  "feat60",
+  "ssl_indomain",
+  "supervised",
+  "harnet5_rand"
+ ],
+ "n_patients": {
+  "tdcsfog": 71,
+  "defog": 57
+ },
+ "n_tests_per_statistic": 48,
+ "definition": "elapsed annotated or predicted FOG time over analyzed time, intervals merged exactly",
+ "seconds": 36.3
+}

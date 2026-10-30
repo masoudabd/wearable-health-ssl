@@ -1,0 +1,32 @@
+table,column,row,p_registered,p_rebuilt
+cross_cohort_seeds_b20k/paired_tests_ap.csv,p_holm,defog | 20 | feat60_fi - feat60_fi_xap | False | 0.0322;0.0404;0.0249;0.0388;0.0928,0.068,0.0342
+cross_cohort_seeds_b20k/paired_tests_ap.csv,p_holm,tdcsfog | 5 | harnet5_tc_xap - feat60_fi_tc_xap | False | 0.0856;0.0534;0.0203;0.0738;0.0987,0.08,0.0416
+cross_cohort_seeds_b20k/paired_tests_apml.csv,p_holm,defog | 20 | feat60_fi - feat60_fi_xrot | False | 0.0155;0.0378;0.0240;0.0426;0.0980,0.068,0.0374
+external_fogathome_defog_VMLflip_b20k/summary.csv,p,defog | VMLflip | daily | harnet5_tc - feat60_fi_tc,0.05,0.0467
+galign_seeds_b20k/paired_tests.csv,p_holm,tdcsfog | 10 | harnet5_galign_tc - feat60_fi_tc | False | 0.0164;0.0377;-0.0030;0.0485;0.0321,0.084,0.027
+paper_derived_b20k/external/summary.csv,p,defog | VMLflip | daily | harnet5_tc - feat60_fi_tc | False | True,0.05,0.0467
+paper_derived_b20k/external/summary.csv,p_holm_main12,tdcsfog | VAPflip | structured | harnet5_tc - feat60_fi_tc | True | True,0.055,0.0484
+paper_derived_b20k/intervals/paired_auprc.csv,p,defog | 10 | harnet5 - supervised | auprc,0.054,0.0454
+paper_derived_b20k/intervals/paired_auprc.csv,p_holm,defog | 5 | supervised - feat60_fi | auprc,0.044,0.0836
+paper_derived_b20k/intervals/paired_auroc_check.csv,p_holm,defog | 10 | harnet5 - harnet5_rand | auroc,0.05,0.0234
+paper_derived_b20k/intervals/paired_auroc_check.csv,p_holm,defog | all | ssl_indomain - harnet5 | auroc,0.072,0.0234
+paper_derived_b20k/ptf_agreement/paired.csv,p,defog | 5 | harnet5 - feat60_fi | mae,0.056,0.0473
+paper_derived_b20k/ptf_agreement/paired.csv,p_holm,tdcsfog | all | harnet5 - supervised | rho,0.099,0.0272
+paper_derived_b20k/ptf_agreement/paired.csv,p_holm,tdcsfog | all | ssl_indomain - harnet5 | icc,0.056,0.0128
+paper_derived_b20k/ptf_agreement/paired.csv,p_holm,tdcsfog | 5 | supervised - feat60_fi | icc,0.056,0.0364
+paper_derived_b20k/ptf_agreement/paired.csv,p_holm,defog | 10 | ssl_indomain - harnet5 | icc,0.056,0.0494
+paper_derived_b20k/ptf_agreement/paired.csv,p_holm,tdcsfog | all | harnet5 - feat60_fi | mae,0.054,0.0336
+paper_derived_b20k/ptf_agreement/paired.csv,p_holm,defog | 10 | supervised - feat60_fi | mae,0.054,0.039
+paper_derived_b20k/ptf_agreement/paired.csv,p_holm,tdcsfog | all | harnet5 - feat60_fi | bias,0.024,0.0648
+paper_derived_b20k/ptf_agreement/paired.csv,p_holm,tdcsfog | 5 | supervised - feat60_fi | bias,0.036,0.077
+paper_derived_b20k/rq4_family/holm_all.csv,p,defog | 5 | harnet5_dlgait - feat60_fi | walking | nan,0.057,0.0454
+paper_derived_b20k/rq4_family/holm_all.csv,p_holm_experiment,defog | all | ssl_dailyliving - ssl_dailyliving_short | equal_compute | nan,0.066,0.0484
+paper_derived_b20k/rq4_family/holm_all.csv,p_holm_experiment,defog | 5 | ssl_dailygait - ssl_indomain | walking | nan,0.066,0.0373999999999999
+paper_derived_b20k/val_operating/operating_points.csv,ptf_icc_minus_f1_p,tdcsfog | 10 | harnet5_tc | fa8,0.05,0.041
+rq12_extra_reps_seeds_b20k/paired_tests.csv,p_holm,defog | 5 | harnet10ctx_tc - harnet5_tc | False | 0.0118;-0.0427;-0.1422;-0.0457;-0.0714,0.043,0.0943
+rq12_extra_reps_seeds_b20k/paired_tests.csv,p_holm,tdcsfog | 5 | harnet10ctx_tc - feat60_fi_tc | False | -0.0184;0.0064;0.0352;0.0587;0.0643,0.123,0.0336
+rq12_seeds_mps_fixed_b20k/paired_tests.csv,p_holm,defog | 10 | harnet5 - harnet5_rand | False | 0.1169;0.0595;0.0564;0.0525;0.1012,0.05,0.0234
+rq12_seeds_mps_fixed_b20k/paired_tests.csv,p_holm,defog | all | ssl_indomain - harnet5 | False | -0.0230;-0.0236;-0.0355;-0.0248;-0.0353,0.072,0.0234
+rq4_equal_compute_seeds_b20k/paired_tests.csv,p_holm,defog | all | ssl_dailyliving - ssl_dailyliving_short | False | 0.0276;0.0120;0.0235;0.0099;0.0137,0.066,0.0484
+rq4_gait_seeds_b20k/paired_tests.csv,p,defog | 5 | harnet5_dlgait - feat60_fi | False | 0.0829;0.0197;-0.0093;0.0198;0.0592,0.057,0.0454
+rq4_gait_seeds_b20k/paired_tests.csv,p_holm,defog | 5 | ssl_dailygait - ssl_indomain | False | 0.0380;0.0297;0.0352;0.0046;0.0068,0.066,0.0373999999999999

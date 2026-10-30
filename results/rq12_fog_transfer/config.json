@@ -1,0 +1,24 @@
+{
+  "quick": false,
+  "folds": 5,
+  "budgets": [
+    5,
+    10,
+    20,
+    10000
+  ],
+  "ssl_epochs": 10,
+  "sup_epochs": 6,
+  "cohorts": [
+    "tdcsfog",
+    "defog"
+  ],
+  "threads": 4,
+  "seed": 0,
+  "n_boot": 1000,
+  "commit": "f31b7fd",
+  "dirty": false,
+  "fs": 30.0,
+  "win_s": 5.0,
+  "hop_s": 2.5
+}

@@ -1,0 +1,40 @@
+{
+ "n_boot": 20000,
+ "runs": [
+  "results/rq12_fog_transfer_mps_fixed_seed0+results/cross_cohort_ap_seed0",
+  "results/rq12_fog_transfer_mps_fixed_seed1+results/cross_cohort_ap_seed1",
+  "results/rq12_fog_transfer_mps_fixed_seed2+results/cross_cohort_ap_seed2",
+  "results/rq12_fog_transfer_mps_fixed_seed3+results/cross_cohort_ap_seed3",
+  "results/rq12_fog_transfer_mps_fixed_seed4+results/cross_cohort_ap_seed4"
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "comparisons": [
+  [
+   "harnet5_xap",
+   "feat60_fi_xap"
+  ],
+  [
+   "harnet5_tc_xap",
+   "feat60_fi_tc_xap"
+  ],
+  [
+   "harnet5",
+   "harnet5_xap"
+  ],
+  [
+   "feat60_fi",
+   "feat60_fi_xap"
+  ]
+ ],
+ "n_tests": 32,
+ "n_patients": {
+  "defog": 57,
+  "tdcsfog": 71
+ }
+}

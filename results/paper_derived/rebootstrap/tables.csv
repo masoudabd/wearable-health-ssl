@@ -1,0 +1,46 @@
+table,status,n_rows,max_ci_width_change,max_auroc_ci_width_change,n_auroc_interval_sets,max_p_change,at_old_floor,at_new_floor
+cross_cohort_seeds_b20k/paired_tests_ap.csv,point estimates identical,32,0.002601677882004591,0.002601677882004591,1,0.08519999999999994,14,12
+cross_cohort_seeds_b20k/paired_tests_apml.csv,point estimates identical,32,0.003440442127555496,0.003440442127555496,1,0.0732,14,12
+cross_cohort_seeds_b20k/paired_tests_none.csv,point estimates identical,32,0.003770629948436799,0.003770629948436799,1,0.020199999999999996,29,29
+external_fogathome_defog_VMLflip_b20k/summary.csv,point estimates identical (on the 30 registered columns),18,0.7177343901877826,0.009205043998401108,1,0.015600000000000003,0,0
+external_fogathome_defog_Vflip_b20k/summary.csv,point estimates identical (on the 30 registered columns),18,0.8469666303462837,0.012416667434284545,1,0.004200000000000009,0,0
+external_fogathome_tdcsfog_VAPMLflip_b20k/summary.csv,point estimates identical (on the 30 registered columns),18,1.8594756572398978,0.016070404933853755,1,0.0237,0,0
+external_fogathome_tdcsfog_VAPflip_b20k/summary.csv,point estimates identical (on the 30 registered columns),18,1.9278516923480282,0.01655722206113419,1,0.030999999999999972,0,0
+galign_seeds_b20k/paired_tests.csv,point estimates identical,32,0.0018479800687594972,0.0018479800687594972,1,0.1535999999999999,2,0
+paper_derived_b20k/calibration/calibration.csv,point estimates identical,24,0.0024610499999999924,,0,,0,0
+paper_derived_b20k/calibration/reliability.csv,point estimates identical,240,,,0,,0,0
+paper_derived_b20k/cross_cohort/summary.csv,point estimates identical,160,,,0,,0,0
+paper_derived_b20k/episodes/episode_metrics.csv,point estimates identical,24,1.556999999999988,,0,,0,0
+paper_derived_b20k/episodes/false_alarms.csv,point estimates identical,1536,,,0,,0,0
+paper_derived_b20k/episodes/operating_points.csv,point estimates identical,36,,,0,,0,0
+paper_derived_b20k/episodes/sweep.csv,point estimates identical,480,,,0,,0,0
+paper_derived_b20k/external/summary.csv,point estimates identical (on the 33 registered columns),72,1.9278000000000048,0.01655699999999999,1,0.03739999999999999,0,0
+paper_derived_b20k/fog_types/episode_detection.csv,point estimates identical,300,0.015848999999999946,,0,,0,0
+paper_derived_b20k/fog_types/window_auroc.csv,point estimates identical,144,0.012039000000000022,0.012039000000000022,1,,0,0
+paper_derived_b20k/intervals/budget_differences.csv,point estimates identical,72,0.0044690000000000285,0.002612000000000003,1,0.019799999999999984,61,59
+paper_derived_b20k/intervals/cohort_gap.csv,point estimates identical,48,0.017845999999999973,0.005851999999999996,1,,0,0
+paper_derived_b20k/intervals/metrics.csv,point estimates identical,48,0.013601000000000085,0.004533999999999927,1,,0,0
+paper_derived_b20k/intervals/paired_auprc.csv,point estimates identical,48,0.005112000000000005,,0,0.18119999999999992,24,21
+paper_derived_b20k/intervals/paired_auroc_check.csv,point estimates identical,48,0.0038417000000000034,0.0038417000000000034,1,0.198,22,19
+paper_derived_b20k/latency/latency.csv,point estimates identical,148,1.017000000000003,,0,,0,0
+paper_derived_b20k/latency/latency_by_duration.csv,point estimates identical,168,,,0,,0,0
+paper_derived_b20k/ptf_agreement/agreement.csv,point estimates identical,192,0.37409999999999144,,0,,0,0
+paper_derived_b20k/ptf_agreement/paired.csv,point estimates identical,192,0.4519999999999982,,0,0.22999999999999998,65,53
+paper_derived_b20k/ptf_agreement/per_patient.csv,point estimates identical,3072,,,0,,0,0
+paper_derived_b20k/rq4_family/holm_all.csv,point estimates identical,92,0.003129476407375001,0.003129476407375001,1,0.2119999999999999,7,1
+paper_derived_b20k/severity/contrasts.csv,point estimates identical,96,0.007599899999999993,0.007599899999999993,1,0.05369999999999997,1,0
+paper_derived_b20k/severity/correlations.csv,point estimates identical,156,0.033599000000000045,,0,,0,0
+paper_derived_b20k/severity/per_patient.csv,point estimates identical,1536,,,0,,0,0
+paper_derived_b20k/severity/strata.csv,point estimates identical,288,0.007039999999999935,0.007039999999999935,1,,0,0
+paper_derived_b20k/val_operating/operating_points.csv,point estimates identical,120,1.1803000000000026,,0,0.05279999999999996,0,0
+paper_derived_b20k/val_operating/per_patient.csv,point estimates identical,7680,,,0,,0,0
+paper_derived_b20k/val_operating/thresholds.csv,point estimates identical,500,,,0,,0,0
+probe_arms_seeds_b20k/paired_tests.csv,point estimates identical,32,0.0025869872913532946,0.0025869872913532946,1,0.07699999999999999,17,12
+rq12_extra_reps_seeds_b20k/paired_tests.csv,point estimates identical,48,0.0017064871390148062,0.0017064871390148062,1,0.3008,5,3
+rq12_lpft_seeds_b20k/paired_tests.csv,point estimates identical,40,0.00233608554712339,0.00233608554712339,1,0.24180000000000001,7,3
+rq12_seeds_mps_fixed_b20k/paired_tests.csv,point estimates identical,48,0.003842103863554616,0.003842103863554616,1,0.19800000000000012,22,19
+rq12_tuned_ft_seeds_b20k/paired_tests.csv,point estimates identical,72,0.0029293452926661134,0.0029293452926661134,1,0.16799999999999993,29,19
+rq4_equal_compute_seeds_b20k/paired_tests.csv,point estimates identical,24,0.0017702380507382057,0.0017702380507382057,1,0.1170000000000001,1,0
+rq4_gait_seeds_b20k/paired_tests.csv,point estimates identical,24,0.0013128982076905105,0.0013128982076905105,1,0.18279999999999996,2,0
+rq4_long_adapt_seeds_b20k/paired_tests.csv,point estimates identical,20,0.0019511755463459055,0.0019511755463459055,1,0.10439999999999994,0,0
+rq4_seeds_mps_fixed_b20k/rq4_paired_tests.csv,point estimates identical,28,0.003129476407375001,0.003129476407375001,1,0.06510000000000002,4,1

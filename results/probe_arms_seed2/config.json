@@ -1,0 +1,25 @@
+{
+  "seed": 2,
+  "reps": [
+    "forge_mc"
+  ],
+  "folds": 5,
+  "budgets": [
+    5,
+    10,
+    20,
+    10000
+  ],
+  "cohorts": [
+    "tdcsfog",
+    "defog"
+  ],
+  "n_boot": 1000,
+  "device": "cpu",
+  "out": null,
+  "commit": "4d60929",
+  "dirty": false,
+  "fs": 30.0,
+  "win_s": 5.0,
+  "hop_s": 2.5
+}

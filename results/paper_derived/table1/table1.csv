@@ -1,0 +1,29 @@
+cohort,characteristic,key,mean,sd,n,n_patients,min,max
+tdcsfog,"Age, years",age,69.9014,7.80687,71,71,51,94
+tdcsfog,Years since diagnosis,years_dx,9.15493,5.68368,71,71,0,23
+tdcsfog,"MDS-UPDRS Part III, ON",updrs3_on,37.5507,14.4818,69,71,15,83
+tdcsfog,"MDS-UPDRS Part III, OFF",updrs3_off,43.1458,16.8926,48,71,12,91
+tdcsfog,NFOG-Q,nfogq,19.0845,4.88364,71,71,0,29
+tdcsfog,n_patients,n_patients,71,,,71,,
+tdcsfog,female,female,14,,,71,,
+tdcsfog,n_recordings,n_recordings,1039,,,71,,
+tdcsfog,hours_valid,hours_valid,20.0559,,,71,,
+tdcsfog,n_windows,n_windows,27356,,,71,,
+tdcsfog,n_fog_windows,n_fog_windows,9515,,,71,,
+tdcsfog,n_patients_no_fog,n_patients_no_fog,13,,,71,,
+tdcsfog,n_episodes_valid,n_episodes_valid,1794,,,71,,
+tdcsfog,n_patients_both_medication,n_patients_both_medication,44,,,71,,
+defog,"Age, years",age,67.2456,9.1501,57,57,28,86
+defog,Years since diagnosis,years_dx,11.7807,6.30619,57,57,1.5,30
+defog,"MDS-UPDRS Part III, ON",updrs3_on,35.7807,9.8706,57,57,14.5,56
+defog,"MDS-UPDRS Part III, OFF",updrs3_off,43.9732,11.3083,56,57,20,76
+defog,NFOG-Q,nfogq,19.7544,3.95073,57,57,11,28
+defog,n_patients,n_patients,57,,,57,,
+defog,female,female,18,,,57,,
+defog,n_recordings,n_recordings,183,,,57,,
+defog,hours_valid,hours_valid,27.0273,,,57,,
+defog,n_windows,n_windows,31894,,,57,,
+defog,n_fog_windows,n_fog_windows,4366,,,57,,
+defog,n_patients_no_fog,n_patients_no_fog,11,,,57,,
+defog,n_episodes_valid,n_episodes_valid,2036,,,57,,
+defog,n_patients_both_medication,n_patients_both_medication,55,,,57,,

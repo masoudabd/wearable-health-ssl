@@ -1,0 +1,169 @@
+{
+ "commit": "7dd8393+uncommitted",
+ "date": "2026-10-29",
+ "cohorts": {
+  "tdcsfog": {
+   "n_patients": 71,
+   "n_windows": 27356,
+   "n_fog_windows": 9515,
+   "prevalence_pct": 34.782131890627284,
+   "n_patients_no_fog": 13,
+   "n_recordings": 1039,
+   "n_recordings_no_window": 0,
+   "hours_recorded": 20.055916472222222,
+   "hours_valid": 20.055916472222222,
+   "fog_min_valid": 404.92582385,
+   "n_windows_candidate": 27356,
+   "n_windows_excluded": 0,
+   "n_episodes": 1794,
+   "n_episodes_valid": 1794,
+   "episode_s_median": 3.35938,
+   "episode_s_q1": 1.64062,
+   "episode_s_q3": 9.47266,
+   "episodes_under_2.5s_pct": 40.078037904124855,
+   "n_patients_both_medication": 44,
+   "n_recordings_off": 396,
+   "female": 14,
+   "female_pct": 19.718309859154928,
+   "episodes_under_2.5s_time_pct": 4.360045280179217,
+   "n_patients_no_fog_analyzed": 9,
+   "n_patients_no_off": 24,
+   "ptf_annotated_time_on_pct": 28.836814549054257,
+   "ptf_annotated_time_off_pct": 41.49345892828748,
+   "analyzed_hours_elapsed": 19.71865888888889,
+   "recorded_time_excluded_pct": 1.6815864974330075,
+   "annotated_fog_excluded_pct": 0.007712104625645644,
+   "fog_min_all": 404.9257824666667,
+   "fog_min_analyzed": 404.89455416666664,
+   "analyzed_min_per_patient": {
+    "median": 14.958333333333334,
+    "q1": 10.291666666666666,
+    "q3": 18.520833333333336
+   },
+   "age": {
+    "mean": 69.90140845070422,
+    "sd": 7.806874131316148,
+    "n": 71,
+    "min": 51.0,
+    "max": 94.0
+   },
+   "years_dx": {
+    "mean": 9.154929577464788,
+    "sd": 5.683680616652617,
+    "n": 71,
+    "min": 0.0,
+    "max": 23.0
+   },
+   "updrs3_on": {
+    "mean": 37.55072463768116,
+    "sd": 14.481769708117268,
+    "n": 69,
+    "min": 15.0,
+    "max": 83.0
+   },
+   "updrs3_off": {
+    "mean": 43.145833333333336,
+    "sd": 16.892639191826962,
+    "n": 48,
+    "min": 12.0,
+    "max": 91.0
+   },
+   "nfogq": {
+    "mean": 19.08450704225352,
+    "sd": 4.88363587876679,
+    "n": 71,
+    "min": 0.0,
+    "max": 29.0
+   },
+   "oddities": {
+    "nfogq_zero": 1,
+    "age_under_40": 0,
+    "sex_differs_between_visits": 0,
+    "updrs3_off_missing": 23,
+    "updrs3_on_missing": 2
+   }
+  },
+  "defog": {
+   "n_patients": 57,
+   "n_windows": 31894,
+   "n_fog_windows": 4366,
+   "prevalence_pct": 13.68909512761021,
+   "n_patients_no_fog": 11,
+   "n_recordings": 183,
+   "n_recordings_no_window": 0,
+   "hours_recorded": 86.49185000000001,
+   "hours_valid": 27.027280555555553,
+   "fog_min_valid": 194.49466666666666,
+   "n_windows_candidate": 124279,
+   "n_windows_excluded": 92385,
+   "n_episodes": 3097,
+   "n_episodes_valid": 2036,
+   "episode_s_median": 2.28,
+   "episode_s_q1": 1.02,
+   "episode_s_q3": 6.165,
+   "episodes_under_2.5s_pct": 52.79960707269156,
+   "n_patients_both_medication": 55,
+   "n_recordings_off": 90,
+   "female": 18,
+   "female_pct": 31.57894736842105,
+   "episodes_under_2.5s_time_pct": 11.419465614474635,
+   "n_patients_no_fog_analyzed": 1,
+   "n_patients_no_off": 2,
+   "ptf_annotated_time_on_pct": 7.66470687048546,
+   "ptf_annotated_time_off_pct": 18.556077155472924,
+   "analyzed_hours_elapsed": 24.354861111111113,
+   "recorded_time_excluded_pct": 71.84143811109243,
+   "annotated_fog_excluded_pct": 25.90998607416033,
+   "fog_min_all": 256.5973333333333,
+   "fog_min_analyzed": 190.11299999999991,
+   "analyzed_min_per_patient": {
+    "median": 21.083333333333332,
+    "q1": 13.166666666666666,
+    "q3": 35.208333333333336
+   },
+   "age": {
+    "mean": 67.24561403508773,
+    "sd": 9.15009894902467,
+    "n": 57,
+    "min": 28.0,
+    "max": 86.0
+   },
+   "years_dx": {
+    "mean": 11.780701754385966,
+    "sd": 6.306188530678508,
+    "n": 57,
+    "min": 1.5,
+    "max": 30.0
+   },
+   "updrs3_on": {
+    "mean": 35.780701754385966,
+    "sd": 9.870599174831053,
+    "n": 57,
+    "min": 14.5,
+    "max": 56.0
+   },
+   "updrs3_off": {
+    "mean": 43.973214285714285,
+    "sd": 11.30825106759627,
+    "n": 56,
+    "min": 20.0,
+    "max": 76.0
+   },
+   "nfogq": {
+    "mean": 19.75438596491228,
+    "sd": 3.9507264329957,
+    "n": 57,
+    "min": 11.0,
+    "max": 28.0
+   },
+   "oddities": {
+    "nfogq_zero": 0,
+    "age_under_40": 1,
+    "sex_differs_between_visits": 1,
+    "updrs3_off_missing": 1,
+    "updrs3_on_missing": 0
+   }
+  }
+ },
+ "seconds": 0.1
+}

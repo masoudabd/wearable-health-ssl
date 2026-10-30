@@ -1,0 +1,79 @@
+{
+ "commit": "e37fe68",
+ "inputs": {
+  "rq4": "results/rq4_seeds_mps_fixed_b20k/rq4_paired_tests.csv",
+  "equal_compute": "results/rq4_equal_compute_seeds_b20k/paired_tests.csv",
+  "walking": "results/rq4_gait_seeds_b20k/paired_tests.csv",
+  "long_adaptation": "results/rq4_long_adapt_seeds_b20k/paired_tests.csv"
+ },
+ "n_tests_listed": 96,
+ "n_tests_unique": 92,
+ "duplicates": 4,
+ "n_boot": 20000,
+ "min_attainable_p_holm_all": 0.0046,
+ "surviving_holm_all": [
+  {
+   "cohort": "defog",
+   "budget": "20",
+   "comparison": "ssl_dailyliving - ssl_indomain",
+   "d_mean": 0.0326024870791616,
+   "ci_lo": 0.0174219990514443,
+   "ci_hi": 0.0492425590675512,
+   "p_holm_all": 0.0046
+  },
+  {
+   "cohort": "defog",
+   "budget": "all",
+   "comparison": "ssl_dailyliving - ssl_indomain",
+   "d_mean": 0.0244155952385231,
+   "ci_lo": 0.0094732914351404,
+   "ci_hi": 0.0427800866808555,
+   "p_holm_all": 0.034800000000000005
+  },
+  {
+   "cohort": "defog",
+   "budget": "10",
+   "comparison": "ssl_dailyliving - harnet5",
+   "d_mean": 0.0388095898493324,
+   "ci_lo": 0.0202423145504895,
+   "ci_hi": 0.0585802813601855,
+   "p_holm_all": 0.0091
+  },
+  {
+   "cohort": "defog",
+   "budget": "all",
+   "comparison": "harnet5_dl - ssl_indomain",
+   "d_mean": 0.0263904736382681,
+   "ci_lo": 0.0089021067231822,
+   "ci_hi": 0.0476915787149985,
+   "p_holm_all": 0.034800000000000005
+  },
+  {
+   "cohort": "defog",
+   "budget": "20",
+   "comparison": "ssl_dailyliving - ssl_indomain_long",
+   "d_mean": 0.0154655325829575,
+   "ci_lo": 0.0076623491086185,
+   "ci_hi": 0.0234952767524356,
+   "p_holm_all": 0.018000000000000002
+  },
+  {
+   "cohort": "defog",
+   "budget": "5",
+   "comparison": "ssl_dailygait - feat60_fi",
+   "d_mean": 0.0588553304756591,
+   "ci_lo": 0.0275880196870632,
+   "ci_hi": 0.0882319537314553,
+   "p_holm_all": 0.018000000000000002
+  },
+  {
+   "cohort": "defog",
+   "budget": "20",
+   "comparison": "ssl_dailygait - ssl_indomain",
+   "d_mean": 0.0298590096679807,
+   "ci_lo": 0.0144583400406539,
+   "ci_hi": 0.0446737723642231,
+   "p_holm_all": 0.018000000000000002
+  }
+ ]
+}

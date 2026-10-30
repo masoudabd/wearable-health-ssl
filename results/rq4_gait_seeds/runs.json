@@ -1,0 +1,32 @@
+{
+ "results/rq4_gait_seed0": {
+  "seed": 0,
+  "commit": "a010f00",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq4_gait_seed1": {
+  "seed": 1,
+  "commit": "a010f00",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq4_gait_seed2": {
+  "seed": 2,
+  "commit": "a010f00",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq4_gait_seed3": {
+  "seed": 3,
+  "commit": "a010f00",
+  "dirty": false,
+  "device": "mps"
+ },
+ "results/rq4_gait_seed4": {
+  "seed": 4,
+  "commit": "a010f00",
+  "dirty": false,
+  "device": "mps"
+ }
+}

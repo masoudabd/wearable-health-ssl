@@ -1,0 +1,301 @@
+cohort,budget,arm,grouping,group,episodes,patients,detected,detected_lo,detected_hi,n_seeds
+tdcsfog,10,feat60,class,start_hesitation,160,43,0.615,0.488371,0.736527,5
+tdcsfog,10,feat60,class,turn,1443,62,0.689536,0.631555,0.744637,5
+tdcsfog,10,feat60,class,walking,190,34,0.705263,0.623048,0.78,5
+tdcsfog,10,feat60,kinetic,akinetic,61,21,0.711475,0.615377,0.789832,5
+tdcsfog,10,feat60,kinetic,kinetic,1105,41,0.716923,0.644646,0.783061,5
+tdcsfog,10,feat60,kinetic,kinetic flag unknown,627,21,0.62488,0.527974,0.708873,5
+tdcsfog,10,feat60,duration,1 to 2.5 s,593,58,0.527825,0.45903,0.596315,5
+tdcsfog,10,feat60,duration,10 to 30 s,256,46,0.885156,0.8392,0.926531,5
+tdcsfog,10,feat60,duration,2.5 to 5 s,378,55,0.671429,0.587148,0.747983,5
+tdcsfog,10,feat60,duration,30 s or longer,176,24,0.968182,0.9118,0.994937,5
+tdcsfog,10,feat60,duration,5 to 10 s,265,54,0.801509,0.752988,0.84556,5
+tdcsfog,10,feat60,duration,under 1 s,125,42,0.4096,0.323214,0.501157,5
+tdcsfog,10,feat60_fi,class,start_hesitation,160,43,0.60625,0.47871,0.733333,5
+tdcsfog,10,feat60_fi,class,turn,1443,62,0.716563,0.662544,0.766667,5
+tdcsfog,10,feat60_fi,class,walking,190,34,0.708421,0.611235,0.795653,5
+tdcsfog,10,feat60_fi,kinetic,akinetic,61,21,0.714754,0.622222,0.8,5
+tdcsfog,10,feat60_fi,kinetic,kinetic,1105,41,0.742624,0.680201,0.800519,5
+tdcsfog,10,feat60_fi,kinetic,kinetic flag unknown,627,21,0.640191,0.537915,0.723868,5
+tdcsfog,10,feat60_fi,duration,1 to 2.5 s,593,58,0.548735,0.47912,0.615224,5
+tdcsfog,10,feat60_fi,duration,10 to 30 s,256,46,0.914844,0.87767,0.947531,5
+tdcsfog,10,feat60_fi,duration,2.5 to 5 s,378,55,0.69418,0.611235,0.766783,5
+tdcsfog,10,feat60_fi,duration,30 s or longer,176,24,0.992045,0.977528,0.998974,5
+tdcsfog,10,feat60_fi,duration,5 to 10 s,265,54,0.815094,0.765384,0.857927,5
+tdcsfog,10,feat60_fi,duration,under 1 s,125,42,0.424,0.344526,0.515888,5
+tdcsfog,10,harnet5,class,start_hesitation,160,43,0.66875,0.549171,0.777194,5
+tdcsfog,10,harnet5,class,turn,1443,62,0.769647,0.722548,0.811573,5
+tdcsfog,10,harnet5,class,walking,190,34,0.772632,0.686169,0.839838,5
+tdcsfog,10,harnet5,kinetic,akinetic,61,21,0.790164,0.666667,0.870771,5
+tdcsfog,10,harnet5,kinetic,kinetic,1105,41,0.777195,0.724726,0.825418,5
+tdcsfog,10,harnet5,kinetic,kinetic flag unknown,627,21,0.729506,0.635422,0.80123,5
+tdcsfog,10,harnet5,duration,1 to 2.5 s,593,58,0.626307,0.562171,0.684723,5
+tdcsfog,10,harnet5,duration,10 to 30 s,256,46,0.953906,0.92988,0.971951,5
+tdcsfog,10,harnet5,duration,2.5 to 5 s,378,55,0.746561,0.679808,0.805322,5
+tdcsfog,10,harnet5,duration,30 s or longer,176,24,1,1,1,5
+tdcsfog,10,harnet5,duration,5 to 10 s,265,54,0.881509,0.828679,0.922045,5
+tdcsfog,10,harnet5,duration,under 1 s,125,42,0.456,0.376576,0.538337,5
+tdcsfog,10,harnet5_rand,class,start_hesitation,160,43,0.645,0.555405,0.731164,5
+tdcsfog,10,harnet5_rand,class,turn,1443,62,0.695357,0.656509,0.730947,5
+tdcsfog,10,harnet5_rand,class,walking,190,34,0.685263,0.604783,0.749426,5
+tdcsfog,10,harnet5_rand,kinetic,akinetic,61,21,0.662295,0.55319,0.747059,5
+tdcsfog,10,harnet5_rand,kinetic,kinetic,1105,41,0.70552,0.662144,0.74591,5
+tdcsfog,10,harnet5_rand,kinetic,kinetic flag unknown,627,21,0.664753,0.581788,0.722692,5
+tdcsfog,10,harnet5_rand,duration,1 to 2.5 s,593,58,0.586847,0.542199,0.627759,5
+tdcsfog,10,harnet5_rand,duration,10 to 30 s,256,46,0.849219,0.812686,0.878049,5
+tdcsfog,10,harnet5_rand,duration,2.5 to 5 s,378,55,0.671958,0.614433,0.721916,5
+tdcsfog,10,harnet5_rand,duration,30 s or longer,176,24,0.898864,0.859374,0.935938,5
+tdcsfog,10,harnet5_rand,duration,5 to 10 s,265,54,0.754717,0.705485,0.797223,5
+tdcsfog,10,harnet5_rand,duration,under 1 s,125,42,0.4736,0.393041,0.55893,5
+tdcsfog,10,ssl_indomain,class,start_hesitation,160,43,0.64,0.515942,0.76478,5
+tdcsfog,10,ssl_indomain,class,turn,1443,62,0.747193,0.707593,0.782719,5
+tdcsfog,10,ssl_indomain,class,walking,190,34,0.670526,0.558065,0.778205,5
+tdcsfog,10,ssl_indomain,kinetic,akinetic,61,21,0.754098,0.680952,0.814286,5
+tdcsfog,10,ssl_indomain,kinetic,kinetic,1105,41,0.766878,0.720905,0.809993,5
+tdcsfog,10,ssl_indomain,kinetic,kinetic flag unknown,627,21,0.661244,0.57857,0.729372,5
+tdcsfog,10,ssl_indomain,duration,1 to 2.5 s,593,58,0.577066,0.510662,0.638191,5
+tdcsfog,10,ssl_indomain,duration,10 to 30 s,256,46,0.928906,0.900429,0.954129,5
+tdcsfog,10,ssl_indomain,duration,2.5 to 5 s,378,55,0.72328,0.671,0.771911,5
+tdcsfog,10,ssl_indomain,duration,30 s or longer,176,24,0.989773,0.970296,0.997612,5
+tdcsfog,10,ssl_indomain,duration,5 to 10 s,265,54,0.833208,0.782417,0.878635,5
+tdcsfog,10,ssl_indomain,duration,under 1 s,125,42,0.4768,0.39141,0.561365,5
+tdcsfog,10,supervised,class,start_hesitation,160,43,0.5425,0.380219,0.683873,5
+tdcsfog,10,supervised,class,turn,1443,62,0.614969,0.558594,0.668407,5
+tdcsfog,10,supervised,class,walking,190,34,0.56,0.418618,0.68254,5
+tdcsfog,10,supervised,kinetic,akinetic,61,21,0.629508,0.455881,0.759091,5
+tdcsfog,10,supervised,kinetic,kinetic,1105,41,0.632941,0.561137,0.694281,5
+tdcsfog,10,supervised,kinetic,kinetic flag unknown,627,21,0.54673,0.43876,0.659141,5
+tdcsfog,10,supervised,duration,1 to 2.5 s,593,58,0.470489,0.384752,0.5539,5
+tdcsfog,10,supervised,duration,10 to 30 s,256,46,0.79375,0.737991,0.843987,5
+tdcsfog,10,supervised,duration,2.5 to 5 s,378,55,0.589947,0.50136,0.672123,5
+tdcsfog,10,supervised,duration,30 s or longer,176,24,0.859091,0.819997,0.898969,5
+tdcsfog,10,supervised,duration,5 to 10 s,265,54,0.677736,0.616604,0.734968,5
+tdcsfog,10,supervised,duration,under 1 s,125,42,0.3568,0.268799,0.453848,5
+tdcsfog,all,feat60,class,start_hesitation,160,43,0.6175,0.492902,0.738668,5
+tdcsfog,all,feat60,class,turn,1443,62,0.755925,0.691562,0.811024,5
+tdcsfog,all,feat60,class,walking,190,34,0.826316,0.73409,0.894788,5
+tdcsfog,all,feat60,kinetic,akinetic,61,21,0.708197,0.603223,0.83415,5
+tdcsfog,all,feat60,kinetic,kinetic,1105,41,0.764887,0.686225,0.830536,5
+tdcsfog,all,feat60,kinetic,kinetic flag unknown,627,21,0.730781,0.628666,0.803546,5
+tdcsfog,all,feat60,duration,1 to 2.5 s,593,58,0.578415,0.483064,0.666139,5
+tdcsfog,all,feat60,duration,10 to 30 s,256,46,0.9625,0.917332,0.990106,5
+tdcsfog,all,feat60,duration,2.5 to 5 s,378,55,0.750794,0.668474,0.822171,5
+tdcsfog,all,feat60,duration,30 s or longer,176,24,0.995455,0.983019,1,5
+tdcsfog,all,feat60,duration,5 to 10 s,265,54,0.925283,0.892452,0.953846,5
+tdcsfog,all,feat60,duration,under 1 s,125,42,0.424,0.317391,0.533333,5
+tdcsfog,all,feat60_fi,class,start_hesitation,160,43,0.59875,0.482118,0.724577,5
+tdcsfog,all,feat60_fi,class,turn,1443,62,0.741372,0.678036,0.7968,5
+tdcsfog,all,feat60_fi,class,walking,190,34,0.821053,0.721378,0.890504,5
+tdcsfog,all,feat60_fi,kinetic,akinetic,61,21,0.685246,0.555807,0.848891,5
+tdcsfog,all,feat60_fi,kinetic,kinetic,1105,41,0.753846,0.679057,0.817355,5
+tdcsfog,all,feat60_fi,kinetic,kinetic flag unknown,627,21,0.7126,0.598214,0.78881,5
+tdcsfog,all,feat60_fi,duration,1 to 2.5 s,593,58,0.552782,0.458784,0.637832,5
+tdcsfog,all,feat60_fi,duration,10 to 30 s,256,46,0.95625,0.921487,0.982915,5
+tdcsfog,all,feat60_fi,duration,2.5 to 5 s,378,55,0.737566,0.655172,0.808376,5
+tdcsfog,all,feat60_fi,duration,30 s or longer,176,24,0.996591,0.987356,1,5
+tdcsfog,all,feat60_fi,duration,5 to 10 s,265,54,0.90717,0.864912,0.942969,5
+tdcsfog,all,feat60_fi,duration,under 1 s,125,42,0.4352,0.343748,0.525,5
+tdcsfog,all,harnet5,class,start_hesitation,160,43,0.59125,0.457299,0.724294,5
+tdcsfog,all,harnet5,class,turn,1443,62,0.755094,0.697023,0.805241,5
+tdcsfog,all,harnet5,class,walking,190,34,0.769474,0.648485,0.851853,5
+tdcsfog,all,harnet5,kinetic,akinetic,61,21,0.662295,0.535382,0.77561,5
+tdcsfog,all,harnet5,kinetic,kinetic,1105,41,0.757285,0.688986,0.816905,5
+tdcsfog,all,harnet5,kinetic,kinetic flag unknown,627,21,0.722807,0.624792,0.790578,5
+tdcsfog,all,harnet5,duration,1 to 2.5 s,593,58,0.568297,0.491089,0.634808,5
+tdcsfog,all,harnet5,duration,10 to 30 s,256,46,0.960938,0.92567,0.988288,5
+tdcsfog,all,harnet5,duration,2.5 to 5 s,378,55,0.731746,0.653824,0.801072,5
+tdcsfog,all,harnet5,duration,30 s or longer,176,24,0.995455,0.983673,1,5
+tdcsfog,all,harnet5,duration,5 to 10 s,265,54,0.910943,0.870536,0.945574,5
+tdcsfog,all,harnet5,duration,under 1 s,125,42,0.4336,0.333333,0.530511,5
+tdcsfog,all,harnet5_rand,class,start_hesitation,160,43,0.6475,0.537405,0.754445,5
+tdcsfog,all,harnet5_rand,class,turn,1443,62,0.743728,0.689941,0.791757,5
+tdcsfog,all,harnet5_rand,class,walking,190,34,0.787368,0.685949,0.85446,5
+tdcsfog,all,harnet5_rand,kinetic,akinetic,61,21,0.767213,0.665514,0.86,5
+tdcsfog,all,harnet5_rand,kinetic,kinetic,1105,41,0.758371,0.694106,0.812579,5
+tdcsfog,all,harnet5_rand,kinetic,kinetic flag unknown,627,21,0.704306,0.605607,0.775744,5
+tdcsfog,all,harnet5_rand,duration,1 to 2.5 s,593,58,0.601349,0.525683,0.668527,5
+tdcsfog,all,harnet5_rand,duration,10 to 30 s,256,46,0.938281,0.90073,0.966429,5
+tdcsfog,all,harnet5_rand,duration,2.5 to 5 s,378,55,0.731746,0.65163,0.800922,5
+tdcsfog,all,harnet5_rand,duration,30 s or longer,176,24,0.970455,0.939285,0.990476,5
+tdcsfog,all,harnet5_rand,duration,5 to 10 s,265,54,0.860377,0.812298,0.902008,5
+tdcsfog,all,harnet5_rand,duration,under 1 s,125,42,0.4336,0.330815,0.542309,5
+tdcsfog,all,ssl_indomain,class,start_hesitation,160,43,0.63125,0.515343,0.750879,5
+tdcsfog,all,ssl_indomain,class,turn,1443,62,0.800554,0.757852,0.839057,5
+tdcsfog,all,ssl_indomain,class,walking,190,34,0.801053,0.708571,0.867812,5
+tdcsfog,all,ssl_indomain,kinetic,akinetic,61,21,0.757377,0.673009,0.83913,5
+tdcsfog,all,ssl_indomain,kinetic,kinetic,1105,41,0.815566,0.769118,0.856255,5
+tdcsfog,all,ssl_indomain,kinetic,kinetic flag unknown,627,21,0.735247,0.652505,0.793094,5
+tdcsfog,all,ssl_indomain,duration,1 to 2.5 s,593,58,0.645868,0.568253,0.714907,5
+tdcsfog,all,ssl_indomain,duration,10 to 30 s,256,46,0.972656,0.949091,0.990244,5
+tdcsfog,all,ssl_indomain,duration,2.5 to 5 s,378,55,0.766138,0.708868,0.818005,5
+tdcsfog,all,ssl_indomain,duration,30 s or longer,176,24,1,1,1,5
+tdcsfog,all,ssl_indomain,duration,5 to 10 s,265,54,0.92,0.884706,0.95,5
+tdcsfog,all,ssl_indomain,duration,under 1 s,125,42,0.536,0.445763,0.61982,5
+tdcsfog,all,supervised,class,start_hesitation,160,43,0.53375,0.396226,0.680537,5
+tdcsfog,all,supervised,class,turn,1443,62,0.681774,0.615995,0.738961,5
+tdcsfog,all,supervised,class,walking,190,34,0.734737,0.610524,0.812037,5
+tdcsfog,all,supervised,kinetic,akinetic,61,21,0.583607,0.468966,0.714894,5
+tdcsfog,all,supervised,kinetic,kinetic,1105,41,0.690317,0.608864,0.759181,5
+tdcsfog,all,supervised,kinetic,kinetic flag unknown,627,21,0.654545,0.548292,0.727396,5
+tdcsfog,all,supervised,duration,1 to 2.5 s,593,58,0.479933,0.40389,0.55042,5
+tdcsfog,all,supervised,duration,10 to 30 s,256,46,0.91875,0.865801,0.96,5
+tdcsfog,all,supervised,duration,2.5 to 5 s,378,55,0.660847,0.573849,0.735037,5
+tdcsfog,all,supervised,duration,30 s or longer,176,24,0.985227,0.950908,0.999029,5
+tdcsfog,all,supervised,duration,5 to 10 s,265,54,0.828679,0.764799,0.885356,5
+tdcsfog,all,supervised,duration,under 1 s,125,42,0.3696,0.27731,0.464181,5
+defog,10,feat60,class,no_class,523,17,0.755641,0.602203,0.838558,5
+defog,10,feat60,class,start_hesitation,5,2,0.68,0,0.85,5
+defog,10,feat60,class,turn,1054,53,0.703985,0.640256,0.756169,5
+defog,10,feat60,class,walking,409,41,0.582885,0.460606,0.665474,5
+defog,10,feat60,kinetic,akinetic,253,23,0.787352,0.697799,0.836885,5
+defog,10,feat60,kinetic,kinetic,517,32,0.656867,0.571257,0.729556,5
+defog,10,feat60,kinetic,kinetic flag unknown,1221,31,0.688124,0.590273,0.759884,5
+defog,10,feat60,duration,1 to 2.5 s,563,55,0.655773,0.57811,0.718405,5
+defog,10,feat60,duration,10 to 30 s,249,31,0.845783,0.793283,0.88871,5
+defog,10,feat60,duration,2.5 to 5 s,372,45,0.716667,0.640935,0.776745,5
+defog,10,feat60,duration,30 s or longer,44,15,0.909091,0.833333,0.96,5
+defog,10,feat60,duration,5 to 10 s,295,39,0.806102,0.739668,0.855618,5
+defog,10,feat60,duration,under 1 s,468,50,0.544444,0.46587,0.617304,5
+defog,10,feat60_fi,class,no_class,523,17,0.734226,0.549657,0.830045,5
+defog,10,feat60_fi,class,start_hesitation,5,2,0.6,0,0.75,5
+defog,10,feat60_fi,class,turn,1054,53,0.657495,0.594679,0.710623,5
+defog,10,feat60_fi,class,walking,409,41,0.557946,0.421175,0.660489,5
+defog,10,feat60_fi,kinetic,akinetic,253,23,0.757312,0.695294,0.808411,5
+defog,10,feat60_fi,kinetic,kinetic,517,32,0.646422,0.554273,0.718983,5
+defog,10,feat60_fi,kinetic,kinetic flag unknown,1221,31,0.640786,0.530334,0.725159,5
+defog,10,feat60_fi,duration,1 to 2.5 s,563,55,0.60746,0.525053,0.676012,5
+defog,10,feat60_fi,duration,10 to 30 s,249,31,0.833735,0.767948,0.881652,5
+defog,10,feat60_fi,duration,2.5 to 5 s,372,45,0.677419,0.596459,0.74325,5
+defog,10,feat60_fi,duration,30 s or longer,44,15,0.895455,0.831818,0.937778,5
+defog,10,feat60_fi,duration,5 to 10 s,295,39,0.791186,0.72,0.841217,5
+defog,10,feat60_fi,duration,under 1 s,468,50,0.499573,0.426423,0.566321,5
+defog,10,harnet5,class,no_class,523,17,0.739579,0.597887,0.836222,5
+defog,10,harnet5,class,start_hesitation,5,2,0.08,0,0.1,5
+defog,10,harnet5,class,turn,1054,53,0.742884,0.699002,0.78138,5
+defog,10,harnet5,class,walking,409,41,0.524694,0.43069,0.619463,5
+defog,10,harnet5,kinetic,akinetic,253,23,0.793676,0.697325,0.85437,5
+defog,10,harnet5,kinetic,kinetic,517,32,0.668859,0.610441,0.729046,5
+defog,10,harnet5,kinetic,kinetic flag unknown,1221,31,0.686486,0.581896,0.769918,5
+defog,10,harnet5,duration,1 to 2.5 s,563,55,0.608171,0.535742,0.673749,5
+defog,10,harnet5,duration,10 to 30 s,249,31,0.920482,0.87234,0.955745,5
+defog,10,harnet5,duration,2.5 to 5 s,372,45,0.745699,0.667818,0.814901,5
+defog,10,harnet5,duration,30 s or longer,44,15,0.986364,0.96,1,5
+defog,10,harnet5,duration,5 to 10 s,295,39,0.838644,0.782538,0.888253,5
+defog,10,harnet5,duration,under 1 s,468,50,0.523504,0.451295,0.58777,5
+defog,10,harnet5_rand,class,no_class,523,17,0.636329,0.386319,0.783973,5
+defog,10,harnet5_rand,class,start_hesitation,5,2,0.56,0,0.7,5
+defog,10,harnet5_rand,class,turn,1054,53,0.532068,0.454585,0.602418,5
+defog,10,harnet5_rand,class,walking,409,41,0.509046,0.417431,0.608176,5
+defog,10,harnet5_rand,kinetic,akinetic,253,23,0.52332,0.387919,0.619884,5
+defog,10,harnet5_rand,kinetic,kinetic,517,32,0.491683,0.430405,0.563637,5
+defog,10,harnet5_rand,kinetic,kinetic flag unknown,1221,31,0.588043,0.452992,0.687201,5
+defog,10,harnet5_rand,duration,1 to 2.5 s,563,55,0.506927,0.407058,0.595865,5
+defog,10,harnet5_rand,duration,10 to 30 s,249,31,0.673896,0.555956,0.76776,5
+defog,10,harnet5_rand,duration,2.5 to 5 s,372,45,0.598925,0.501629,0.676446,5
+defog,10,harnet5_rand,duration,30 s or longer,44,15,0.595455,0.447996,0.747059,5
+defog,10,harnet5_rand,duration,5 to 10 s,295,39,0.629831,0.514942,0.722224,5
+defog,10,harnet5_rand,duration,under 1 s,468,50,0.462821,0.379418,0.535235,5
+defog,10,ssl_indomain,class,no_class,523,17,0.755641,0.616723,0.823766,5
+defog,10,ssl_indomain,class,start_hesitation,5,2,0.36,0.2,0.4,5
+defog,10,ssl_indomain,class,turn,1054,53,0.785769,0.741723,0.821449,5
+defog,10,ssl_indomain,class,walking,409,41,0.623472,0.478888,0.721146,5
+defog,10,ssl_indomain,kinetic,akinetic,253,23,0.847431,0.785612,0.892683,5
+defog,10,ssl_indomain,kinetic,kinetic,517,32,0.753578,0.690789,0.801106,5
+defog,10,ssl_indomain,kinetic,kinetic flag unknown,1221,31,0.717609,0.629527,0.778572,5
+defog,10,ssl_indomain,duration,1 to 2.5 s,563,55,0.672114,0.601284,0.723957,5
+defog,10,ssl_indomain,duration,10 to 30 s,249,31,0.935743,0.901554,0.96339,5
+defog,10,ssl_indomain,duration,2.5 to 5 s,372,45,0.79086,0.726944,0.839771,5
+defog,10,ssl_indomain,duration,30 s or longer,44,15,0.977273,0.938462,1,5
+defog,10,ssl_indomain,duration,5 to 10 s,295,39,0.887458,0.846152,0.917118,5
+defog,10,ssl_indomain,duration,under 1 s,468,50,0.576496,0.512299,0.634719,5
+defog,10,supervised,class,no_class,523,17,0.494455,0.259825,0.640322,5
+defog,10,supervised,class,start_hesitation,5,2,0.4,0.2,0.45,5
+defog,10,supervised,class,turn,1054,53,0.382163,0.328287,0.444402,5
+defog,10,supervised,class,walking,409,41,0.34132,0.262828,0.446212,5
+defog,10,supervised,kinetic,akinetic,253,23,0.349407,0.278686,0.456523,5
+defog,10,supervised,kinetic,kinetic,517,32,0.374468,0.313031,0.447436,5
+defog,10,supervised,kinetic,kinetic flag unknown,1221,31,0.426699,0.305005,0.53262,5
+defog,10,supervised,duration,1 to 2.5 s,563,55,0.359147,0.285333,0.433333,5
+defog,10,supervised,duration,10 to 30 s,249,31,0.514056,0.390989,0.618414,5
+defog,10,supervised,duration,2.5 to 5 s,372,45,0.434946,0.344668,0.515056,5
+defog,10,supervised,duration,30 s or longer,44,15,0.477273,0.345832,0.646154,5
+defog,10,supervised,duration,5 to 10 s,295,39,0.496949,0.39469,0.582279,5
+defog,10,supervised,duration,under 1 s,468,50,0.30641,0.24503,0.371316,5
+defog,all,feat60,class,no_class,523,17,0.611855,0.334882,0.786299,5
+defog,all,feat60,class,start_hesitation,5,2,0.04,0,0.05,5
+defog,all,feat60,class,turn,1054,53,0.616888,0.528599,0.692214,5
+defog,all,feat60,class,walking,409,41,0.467482,0.285297,0.594808,5
+defog,all,feat60,kinetic,akinetic,253,23,0.714625,0.542169,0.821199,5
+defog,all,feat60,kinetic,kinetic,517,32,0.563636,0.446315,0.657379,5
+defog,all,feat60,kinetic,kinetic flag unknown,1221,31,0.564619,0.400901,0.691457,5
+defog,all,feat60,duration,1 to 2.5 s,563,55,0.493073,0.383729,0.591498,5
+defog,all,feat60,duration,10 to 30 s,249,31,0.903614,0.831967,0.951891,5
+defog,all,feat60,duration,2.5 to 5 s,372,45,0.590323,0.463744,0.696886,5
+defog,all,feat60,duration,30 s or longer,44,15,0.963636,0.887995,1,5
+defog,all,feat60,duration,5 to 10 s,295,39,0.79322,0.708974,0.863271,5
+defog,all,feat60,duration,under 1 s,468,50,0.348291,0.252889,0.441569,5
+defog,all,feat60_fi,class,no_class,523,17,0.653537,0.386579,0.809143,5
+defog,all,feat60_fi,class,start_hesitation,5,2,0,0,0,5
+defog,all,feat60_fi,class,turn,1054,53,0.621252,0.534481,0.696717,5
+defog,all,feat60_fi,class,walking,409,41,0.472861,0.287081,0.606064,5
+defog,all,feat60_fi,kinetic,akinetic,253,23,0.73834,0.574994,0.842624,5
+defog,all,feat60_fi,kinetic,kinetic,517,32,0.582979,0.470689,0.667775,5
+defog,all,feat60_fi,kinetic,kinetic flag unknown,1221,31,0.574775,0.409884,0.702711,5
+defog,all,feat60_fi,duration,1 to 2.5 s,563,55,0.50373,0.394415,0.600719,5
+defog,all,feat60_fi,duration,10 to 30 s,249,31,0.902811,0.818749,0.958879,5
+defog,all,feat60_fi,duration,2.5 to 5 s,372,45,0.63172,0.514363,0.726549,5
+defog,all,feat60_fi,duration,30 s or longer,44,15,0.963636,0.89697,1,5
+defog,all,feat60_fi,duration,5 to 10 s,295,39,0.8,0.703349,0.870727,5
+defog,all,feat60_fi,duration,under 1 s,468,50,0.359402,0.273345,0.44686,5
+defog,all,harnet5,class,no_class,523,17,0.741491,0.545621,0.85657,5
+defog,all,harnet5,class,start_hesitation,5,2,0,0,0,5
+defog,all,harnet5,class,turn,1054,53,0.695256,0.639528,0.743781,5
+defog,all,harnet5,class,walking,409,41,0.487042,0.322344,0.612915,5
+defog,all,harnet5,kinetic,akinetic,253,23,0.782609,0.702912,0.839646,5
+defog,all,harnet5,kinetic,kinetic,517,32,0.647582,0.571,0.707273,5
+defog,all,harnet5,kinetic,kinetic flag unknown,1221,31,0.644554,0.507416,0.759434,5
+defog,all,harnet5,duration,1 to 2.5 s,563,55,0.560213,0.461003,0.650374,5
+defog,all,harnet5,duration,10 to 30 s,249,31,0.95743,0.91839,0.983714,5
+defog,all,harnet5,duration,2.5 to 5 s,372,45,0.74086,0.654761,0.811595,5
+defog,all,harnet5,duration,30 s or longer,44,15,1,1,1,5
+defog,all,harnet5,duration,5 to 10 s,295,39,0.877288,0.818963,0.9251,5
+defog,all,harnet5,duration,under 1 s,468,50,0.400855,0.320243,0.483843,5
+defog,all,harnet5_rand,class,no_class,523,17,0.60956,0.340676,0.783454,5
+defog,all,harnet5_rand,class,start_hesitation,5,2,0.28,0.2,0.3,5
+defog,all,harnet5_rand,class,turn,1054,53,0.670019,0.596294,0.736832,5
+defog,all,harnet5_rand,class,walking,409,41,0.584841,0.493902,0.66801,5
+defog,all,harnet5_rand,kinetic,akinetic,253,23,0.614229,0.485806,0.722277,5
+defog,all,harnet5_rand,kinetic,kinetic,517,32,0.622437,0.545088,0.702685,5
+defog,all,harnet5_rand,kinetic,kinetic flag unknown,1221,31,0.6457,0.507406,0.746266,5
+defog,all,harnet5_rand,duration,1 to 2.5 s,563,55,0.575844,0.482631,0.66207,5
+defog,all,harnet5_rand,duration,10 to 30 s,249,31,0.816867,0.702283,0.898392,5
+defog,all,harnet5_rand,duration,2.5 to 5 s,372,45,0.663441,0.553103,0.750366,5
+defog,all,harnet5_rand,duration,30 s or longer,44,15,0.804545,0.604543,0.947826,5
+defog,all,harnet5_rand,duration,5 to 10 s,295,39,0.762712,0.668011,0.844244,5
+defog,all,harnet5_rand,duration,under 1 s,468,50,0.493162,0.420423,0.561133,5
+defog,all,ssl_indomain,class,no_class,523,17,0.660421,0.474498,0.7857,5
+defog,all,ssl_indomain,class,start_hesitation,5,2,0.08,0,0.1,5
+defog,all,ssl_indomain,class,turn,1054,53,0.694118,0.636102,0.743001,5
+defog,all,ssl_indomain,class,walking,409,41,0.517359,0.333333,0.661284,5
+defog,all,ssl_indomain,kinetic,akinetic,253,23,0.775494,0.656918,0.845518,5
+defog,all,ssl_indomain,kinetic,kinetic,517,32,0.661896,0.571034,0.729311,5
+defog,all,ssl_indomain,kinetic,kinetic flag unknown,1221,31,0.614742,0.491082,0.71244,5
+defog,all,ssl_indomain,duration,1 to 2.5 s,563,55,0.556661,0.47192,0.628753,5
+defog,all,ssl_indomain,duration,10 to 30 s,249,31,0.931727,0.887719,0.964784,5
+defog,all,ssl_indomain,duration,2.5 to 5 s,372,45,0.70914,0.623219,0.782991,5
+defog,all,ssl_indomain,duration,30 s or longer,44,15,0.977273,0.935484,1,5
+defog,all,ssl_indomain,duration,5 to 10 s,295,39,0.847458,0.786364,0.901976,5
+defog,all,ssl_indomain,duration,under 1 s,468,50,0.399145,0.333507,0.463973,5
+defog,all,supervised,class,no_class,523,17,0.552199,0.293633,0.743365,5
+defog,all,supervised,class,start_hesitation,5,2,0.2,0,0.25,5
+defog,all,supervised,class,turn,1054,53,0.534156,0.448822,0.613094,5
+defog,all,supervised,class,walking,409,41,0.423961,0.329309,0.50108,5
+defog,all,supervised,kinetic,akinetic,253,23,0.480632,0.317748,0.610363,5
+defog,all,supervised,kinetic,kinetic,517,32,0.48472,0.404431,0.572924,5
+defog,all,supervised,kinetic,kinetic flag unknown,1221,31,0.535627,0.380483,0.659617,5
+defog,all,supervised,duration,1 to 2.5 s,563,55,0.450444,0.355229,0.54353,5
+defog,all,supervised,duration,10 to 30 s,249,31,0.736546,0.601851,0.839298,5
+defog,all,supervised,duration,2.5 to 5 s,372,45,0.534946,0.427862,0.641486,5
+defog,all,supervised,duration,30 s or longer,44,15,0.736364,0.525,0.876923,5
+defog,all,supervised,duration,5 to 10 s,295,39,0.656949,0.531594,0.780532,5
+defog,all,supervised,duration,under 1 s,468,50,0.350427,0.269767,0.426317,5

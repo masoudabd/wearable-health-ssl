@@ -1,0 +1,47 @@
+{
+ "n_boot": 20000,
+ "runs": [
+  "results/rq4_equal_compute_seed0",
+  "results/rq4_equal_compute_seed1",
+  "results/rq4_equal_compute_seed2",
+  "results/rq4_equal_compute_seed3",
+  "results/rq4_equal_compute_seed4"
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "comparisons": [
+  [
+   "ssl_dailyliving",
+   "ssl_indomain_long"
+  ],
+  [
+   "ssl_indomain_long",
+   "ssl_indomain"
+  ],
+  [
+   "ssl_dailyliving_short",
+   "ssl_indomain"
+  ],
+  [
+   "ssl_dailyliving",
+   "ssl_dailyliving_short"
+  ],
+  [
+   "ssl_dailyliving",
+   "feat60_fi"
+  ],
+  [
+   "ssl_indomain_long",
+   "feat60_fi"
+  ]
+ ],
+ "n_tests": 24,
+ "n_patients": {
+  "defog": 57
+ }
+}
